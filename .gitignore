@@ -1,0 +1,14 @@
+#testing
+
+*
+
+!src/
+!src/**
+
+!WebContent/
+!WebContent/**
+
+!*.txt
+!*.md
+
+!.gitignore

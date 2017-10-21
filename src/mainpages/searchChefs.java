@@ -1,6 +1,12 @@
 package mainpages;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -27,7 +33,64 @@ public class searchChefs extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		
+        
+		
+		String chefName=null;
+		int chefID=-1;
+		String chefEmail=null;
+		
+		Connection c = null;
+		
+		try
+        {
+            String url = "jdbc:mysql://cs3.calstatela.edu/cs3220stu12";
+
+            String username = "cs3220stu12";
+            String password = "1*!tN.aZ";
+
+            c = DriverManager.getConnection( url, username,
+                password );
+            Statement stmt = c.createStatement();
+            
+            
+            ResultSet rs = stmt.executeQuery( "select * from chefs where cusine_style = 'Italian_style,';");
+
+            while( rs.next() )
+            {
+                chefName = rs.getString("name");
+                chefEmail = rs.getString("email");
+                chefID = rs.getInt("id");
+            }          
+            
+
+
+            c.close();
+        }
+        catch( SQLException e )
+        {
+            throw new ServletException( e );
+        }
+		finally
+	        {
+	            try
+	            {
+	                if( c != null ) c.close();
+	            }
+	            catch( SQLException e )
+	            {
+	                throw new ServletException( e );
+	            }
+	        }
+	
+	
+		request.setAttribute("email123", chefEmail);
+		request.setAttribute("name123", chefName);
+		
+		request.getRequestDispatcher( "chefDisplay.jsp" ).forward( request, response );
+
+	
+	
 	}
 
 	/**

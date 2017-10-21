@@ -49,7 +49,7 @@
 							<ul id="chefs">
 								<li>
 									<a href="Chefs.jsp"><img src="images/ItalianChef.jpg" alt="Img"></a>
-									<h2><a href="Chefs.jsp">Italian Chefs</a></h2>
+									<h2><a href="searchChefs?foodType=123">Italian Chefs</a></h2>
 									<p>
 										Cras dui sapien, feugiat vitae tristique ut, lobortis tempor orci. Donec pulvinar sagittis metus ut tristique. Pellentes que habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas idios.
 									</p>

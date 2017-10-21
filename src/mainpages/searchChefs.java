@@ -37,24 +37,27 @@ public class searchChefs extends HttpServlet {
         
 		
 		String chefName=null;
-		int chefID=-1;
+		int chefID= 0;
 		String chefEmail=null;
+		String type= null;
+		
+		type = request.getParameter("foodType");
 		
 		Connection c = null;
 		
 		try
         {
-            String url = "jdbc:mysql://cs3.calstatela.edu/cs3220stu12";
+            String url = "jdbc:mysql://cs3.calstatela.edu/cs3337stu07";
 
-            String username = "cs3220stu12";
-            String password = "1*!tN.aZ";
+            String username = "cs3337stu07";
+            String password = "CJNI06oM";
 
             c = DriverManager.getConnection( url, username,
                 password );
             Statement stmt = c.createStatement();
             
             
-            ResultSet rs = stmt.executeQuery( "select * from chefs where cusine_style = 'Italian_style,';");
+            ResultSet rs = stmt.executeQuery( "select * from chefs where cuisine_style = '"+ type +"';");
 
             while( rs.next() )
             {

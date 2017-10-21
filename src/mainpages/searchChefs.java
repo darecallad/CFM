@@ -89,6 +89,7 @@ public class searchChefs extends HttpServlet {
 	
 		request.setAttribute("email123", chefEmail);
 		request.setAttribute("name123", chefName);
+		request.setAttribute("id123", chefID);
 		
 		request.getRequestDispatcher( "chefDisplay.jsp" ).forward( request, response );
 

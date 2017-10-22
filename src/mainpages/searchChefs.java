@@ -39,9 +39,11 @@ public class searchChefs extends HttpServlet {
 		String chefName=null;
 		int chefID= 0;
 		String chefEmail=null;
-		String type= null;
+		String cheftype= null;
+		String chefdescription = null;
+		int chefrate = 0;
 		
-		type = request.getParameter("foodType");
+		cheftype = request.getParameter("foodType");
 		
 		Connection c = null;
 		
@@ -57,13 +59,15 @@ public class searchChefs extends HttpServlet {
             Statement stmt = c.createStatement();
             
             
-            ResultSet rs = stmt.executeQuery( "select * from chefs where cuisine_style = '"+ type +"';");
+            ResultSet rs = stmt.executeQuery( "select * from chefs where type = '"+ cheftype +"';");
 
             while( rs.next() )
             {
                 chefName = rs.getString("name");
                 chefEmail = rs.getString("email");
                 chefID = rs.getInt("id");
+                chefdescription = rs.getString("description");
+                chefrate = rs.getInt("rate");
             }          
             
 
@@ -87,9 +91,11 @@ public class searchChefs extends HttpServlet {
 	        }
 	
 	
-		request.setAttribute("email123", chefEmail);
-		request.setAttribute("name123", chefName);
-		request.setAttribute("id123", chefID);
+		request.setAttribute("chefemail", chefEmail);
+		request.setAttribute("chefname", chefName);
+		request.setAttribute("chefid", chefID);
+		request.setAttribute("chefdescription", chefdescription);
+		request.setAttribute("chefrate", chefrate);
 		
 		request.getRequestDispatcher( "chefDisplay.jsp" ).forward( request, response );
 

@@ -9,11 +9,16 @@
 </head>
 <body>
 
-Name: ${name123 }
+Chef-ID: ${chefid }
 <br>
-Email: ${email123 }
+Chef-Name: ${chefname }
 <br>
-ID: ${id123 }
+Chef-Email: ${chefemail }
+<br>
+Chef-Description : ${chefdescription} 
+<br>
+Chef-Rate : ${ chefrate }
+
 
 
 </body>

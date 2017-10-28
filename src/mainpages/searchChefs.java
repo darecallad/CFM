@@ -6,12 +6,16 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+
 
 /**
  * Servlet implementation class searchChefs
@@ -34,14 +38,14 @@ public class searchChefs extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-        
+		List<Chefs_CFM> Chefs = new ArrayList<Chefs_CFM>();
 		
 		String chefName=null;
 		int chefID= 0;
 		String chefEmail=null;
 		String cheftype= null;
-		String chefdescription = null;
-		int chefrate = 0;
+		String chefDescription = null;
+		int chefRate = 0;
 		
 		cheftype = request.getParameter("foodType");
 		
@@ -63,11 +67,13 @@ public class searchChefs extends HttpServlet {
 
             while( rs.next() )
             {
+            	chefID = rs.getInt("id");
                 chefName = rs.getString("name");
                 chefEmail = rs.getString("email");
-                chefID = rs.getInt("id");
-                chefdescription = rs.getString("description");
-                chefrate = rs.getInt("rate");
+                chefDescription = rs.getString("description");
+                chefRate = rs.getInt("rate");
+                
+                Chefs.add(new Chefs_CFM(chefID,chefName,chefEmail,chefDescription,chefRate));
             }          
             
 
@@ -94,9 +100,9 @@ public class searchChefs extends HttpServlet {
 		request.setAttribute("chefemail", chefEmail);
 		request.setAttribute("chefname", chefName);
 		request.setAttribute("chefid", chefID);
-		request.setAttribute("chefdescription", chefdescription);
-		request.setAttribute("chefrate", chefrate);
-		
+		request.setAttribute("chefdescription", chefDescription);
+		request.setAttribute("chefrate", chefRate);
+		request.setAttribute("Chefs", Chefs);
 		request.getRequestDispatcher( "chefDisplay.jsp" ).forward( request, response );
 
 	

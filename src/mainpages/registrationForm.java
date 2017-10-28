@@ -1,3 +1,4 @@
+<<<<<<< HEAD:src/mainpages/main.java
 
 
 
@@ -27,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>CFM/registrationForm.java at master · darecallad/CFM</title>
+  <title>CFM/main.java at master · darecallad/CFM</title>
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
@@ -36,10 +37,10 @@
     <meta content="https://avatars2.githubusercontent.com/u/27443134?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="darecallad/CFM" property="og:title" /><meta content="https://github.com/darecallad/CFM" property="og:url" /><meta content="Contribute to CFM development by creating an account on GitHub." property="og:description" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjE3NjI3NjU3OjdjZDNjYmE3MWFjZjI0MDQwZTE4MGVkZWRmODViNjQ4MmFiZWI4YWM4OGQxNjY5MDIxNzJjYmRhZjRhMzVlYTc=--aba137c4fe520bde7219327e5fef826d9f6e85ab">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjE3NjI3NjU3OjNhN2MxMTYxOTdmZWQ0ZWY2OTg2ZWE2MjY4ZTk0MGUyMWM2Y2MwN2FlNjM0OTEzZjE1OGQzYzczYjBkMjU1YjM=--c1157f52483572f57dd7618f14ca51ffa5373970">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="6381:2CBAA:DE13957:145ECDE1:59F4F687" data-pjax-transient>
+  <meta name="request-id" content="6381:2CBAA:DE13618:145ECDC1:59F4F687" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
@@ -48,7 +49,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="6381:2CBAA:DE13957:145ECDE1:59F4F687" name="octolytics-dimension-request_id" /><meta content="sea" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="31376988" name="octolytics-actor-id" /><meta content="razekei" name="octolytics-actor-login" /><meta content="4d1b5289c2a08fbb480ff2680a3626cb45e087f14bd8d1befeac3333c7f3bf68" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="6381:2CBAA:DE13618:145ECDC1:59F4F687" name="octolytics-dimension-request_id" /><meta content="sea" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="31376988" name="octolytics-actor-id" /><meta content="razekei" name="octolytics-actor-login" /><meta content="4d1b5289c2a08fbb480ff2680a3626cb45e087f14bd8d1befeac3333c7f3bf68" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -63,7 +64,7 @@
   <meta name="user-login" content="razekei">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="MWZkZDA3MDYyMTYxZTg1MWI0YmRlZWM0NGQzMWY2M2JmNDRlNWNlYzMyNTMyMDExNmRjN2M0OTY4ZTNkYWJkMHx7InJlbW90ZV9hZGRyZXNzIjoiMTMwLjE4Mi4yNC45NiIsInJlcXVlc3RfaWQiOiI2MzgxOjJDQkFBOkRFMTM5NTc6MTQ1RUNERTE6NTlGNEY2ODciLCJ0aW1lc3RhbXAiOjE1MDkyMjYxMjgsImhvc3QiOiJnaXRodWIuY29tIn0=">
+    <meta name="js-proxy-site-detection-payload" content="MjE3NjFiNDhmYzJmNjAxZjU1ZjFmNDU5ZmI5MmI3ZjI2YTA5MzIxNDYyNjVmZWE1NTZlNDFmMDFkMjJjMzZjZHx7InJlbW90ZV9hZGRyZXNzIjoiMTMwLjE4Mi4yNC45NiIsInJlcXVlc3RfaWQiOiI2MzgxOjJDQkFBOkRFMTM2MTg6MTQ1RUNEQzE6NTlGNEY2ODciLCJ0aW1lc3RhbXAiOjE1MDkyMjYxMTksImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="REMOTE_NEXT,UNIVERSE_BANNER">
 
@@ -80,7 +81,7 @@
   <meta content="27443134" name="octolytics-dimension-user_id" /><meta content="darecallad" name="octolytics-dimension-user_login" /><meta content="105408358" name="octolytics-dimension-repository_id" /><meta content="darecallad/CFM" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="105408358" name="octolytics-dimension-repository_network_root_id" /><meta content="darecallad/CFM" name="octolytics-dimension-repository_network_root_nwo" /><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" />
 
 
-    <link rel="canonical" href="https://github.com/darecallad/CFM/blob/master/src/mainpages/registrationForm.java" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/darecallad/CFM/blob/master/src/mainpages/main.java" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -128,7 +129,7 @@
               <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
   <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/darecallad/CFM/search" class="js-site-search-form" data-scoped-search-url="/darecallad/CFM/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
     <label class="form-control header-search-wrapper js-chromeless-input-container">
-        <a href="/darecallad/CFM/blob/master/src/mainpages/registrationForm.java" class="header-search-scope no-underline">This repository</a>
+        <a href="/darecallad/CFM/blob/master/src/mainpages/main.java" class="header-search-scope no-underline">This repository</a>
       <input type="text"
         class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable"
         data-hotkey="s"
@@ -251,7 +252,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="mAlSSoRenyJNamLzc7tflPMgH47N0ESI9cQumXA3Mu9VyrZth4R8ITiEOBGErZJHhPzLC8RLKOUHo6qyFJxYiA==" /></div>
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="y/2XOsL/natfUlJjucI8J1XcwjFNJtW+A8hddnSBFU4GPnMdwSV+qCq8CIFO1PH0IgAWtES9udPxr9ldECp/KQ==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -262,7 +263,7 @@
 </ul>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="K8Dr2v7lMgL6oGG6lCxCEN1lNEJOquWXhGjyjC8zuf/mAw/9/T/RAY9OO1hjOo/Dqrngx0cxifp2D3anS5jTmA==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="cbxU/KO0YrDJC/THI+LBd8ZgebNxXTzSabsypdvjCBO8f7DboG6Bs7zlriXU9AyksbytNnjGUL+b3LaOv0hidA==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -297,7 +298,7 @@
 
         <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="wGcmtDlt4eAY0XuXNCry+Bcb2YKr5d4hvEp6NSUmbErT/ll0xOUOY+bx/RsA2b6/mYqNFk0asOFmovMI9f6LxQ==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="105408358" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="w+l3ocVtxlCHjejpRLJVOU88yy6QwPW1F5OxsQFM7lXQcAhhOOUp03mtbmVwQRl+wa2funY/m3XNeziM0ZQJ2g==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="105408358" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/darecallad/CFM/subscription"
@@ -377,7 +378,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/darecallad/CFM/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="tjzgiX9IdR9YTJX0PQVMDTeAD/VBRmKVpnhAUg3x0k2tkKhTl1BUBW/en388CognsRHZd9OgqNd4KDUrHTPyKw==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/darecallad/CFM/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="HnfZ5z1BiEFzqJ8jLarRhdLaScc+cff9oIStLWFhk/gF25E91VmpW0Q6lagspRWvVEufRayXPb9+1NhUcaOzng==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -392,7 +393,7 @@
           0
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/darecallad/CFM/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="XJBzOiTy+CU47yOTeen1HTj7XfHHPRz/da7+eIQ9iv61UvXTaNGAsr9rtkkSqSnsRLnRJvesjI3Fwtd+h+5sbQ==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/darecallad/CFM/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="0yaUrcReDfd9u5ouY31qsVlvN8N47I8HGWPvA3JaFHU65BJEiH11YPo/D/QIPbZAJS27FEh9H3WpD8YFcYny5g==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -411,7 +412,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/darecallad/CFM/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="UvE5egAU6g1WSiM6OszgFEVfWMrYcXKb2BkeJvXFAdtnQzIxomqUBTkXsGmt/jwUHeQv29ruapGmZOLTPEW+Uw==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/darecallad/CFM/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="fqlJvSyqfzE00bDg8PNkJU/rRb2jIPf/xxHn5wkr7edLG0L2jtQBOVuMI7NnwbglF1AyrKG/7/W5bBsSwKtSbw==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -492,9 +493,9 @@
   <div class="repository-content">
 
     
-  <a href="/darecallad/CFM/blob/3e37f133177bbe5f0bbae44e5521557bb2c203c2/src/mainpages/registrationForm.java" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+  <a href="/darecallad/CFM/blob/3e37f133177bbe5f0bbae44e5521557bb2c203c2/src/mainpages/main.java" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:ef760482d8288d7cb6ad4236f8a0b4d2 -->
+  <!-- blob contrib key: blob_contributors:v21:81634fc4a0d8a75fee3bec59eab259a1 -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -536,7 +537,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/darecallad/CFM/blob/Raymond/src/mainpages/registrationForm.java"
+               href="/darecallad/CFM/blob/Raymond/src/mainpages/main.java"
                data-name="Raymond"
                data-skip-pjax="true"
                rel="nofollow">
@@ -546,7 +547,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/darecallad/CFM/blob/VeronicaBranch/src/mainpages/registrationForm.java"
+               href="/darecallad/CFM/blob/VeronicaBranch/src/mainpages/main.java"
                data-name="VeronicaBranch"
                data-skip-pjax="true"
                rel="nofollow">
@@ -556,7 +557,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/darecallad/CFM/blob/Vincent/src/mainpages/registrationForm.java"
+               href="/darecallad/CFM/blob/Vincent/src/mainpages/main.java"
                data-name="Vincent"
                data-skip-pjax="true"
                rel="nofollow">
@@ -566,7 +567,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/darecallad/CFM/blob/database/src/mainpages/registrationForm.java"
+               href="/darecallad/CFM/blob/database/src/mainpages/main.java"
                data-name="database"
                data-skip-pjax="true"
                rel="nofollow">
@@ -576,7 +577,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/darecallad/CFM/blob/master/src/mainpages/registrationForm.java"
+               href="/darecallad/CFM/blob/master/src/mainpages/main.java"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -587,7 +588,7 @@
             </a>
         </div>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/darecallad/CFM/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="rRtMXJJgg72W5BWNMfLwwTG/RdEMlE8Vts88KKDlVMq+uS41FKBDiXFNrXS8nS9zPw6GWV3TxTIWkz1PLpx/cQ==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/darecallad/CFM/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="tZraJVja2Y4SyjrLUgpwn7pOm3Fz+T/NdqdsViuVUCemOLhM3hoZuvVjgjLfZa8ttP9Y+SK+terW+20xpex7nA==" /></div>
           <svg aria-hidden="true" class="octicon octicon-git-branch select-menu-item-icon" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
             <div class="select-menu-item-text">
               <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
@@ -595,7 +596,7 @@
             </div>
             <input type="hidden" name="name" id="name" class="js-new-item-value">
             <input type="hidden" name="branch" id="branch" value="master">
-            <input type="hidden" name="path" id="path" value="src/mainpages/registrationForm.java">
+            <input type="hidden" name="path" id="path" value="src/mainpages/main.java">
 </form>
       </div>
 
@@ -622,30 +623,60 @@
       <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
     </div>
     <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/darecallad/CFM"><span>CFM</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/darecallad/CFM/tree/master/src"><span>src</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/darecallad/CFM/tree/master/src/mainpages"><span>mainpages</span></a></span><span class="separator">/</span><strong class="final-path">registrationForm.java</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/darecallad/CFM"><span>CFM</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/darecallad/CFM/tree/master/src"><span>src</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/darecallad/CFM/tree/master/src/mainpages"><span>mainpages</span></a></span><span class="separator">/</span><strong class="final-path">main.java</strong>
     </div>
   </div>
 
 
-  <include-fragment class="commit-tease" src="/darecallad/CFM/contributors/master/src/mainpages/registrationForm.java">
-    <div>
-      Fetching contributors&hellip;
-    </div>
+  
+  <div class="commit-tease">
+      <span class="float-right">
+        <a class="commit-tease-sha" href="/darecallad/CFM/commit/88a67ee6bf9812704cc956ab3c06ec076d0246f9" data-pjax>
+          88a67ee
+        </a>
+        <relative-time datetime="2017-10-21T01:09:38Z">Oct 20, 2017</relative-time>
+      </span>
+      <div>
+        <img alt="@darecallad" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/27443134?s=40&amp;v=4" width="20" />
+        <a href="/darecallad" class="user-mention" rel="author">darecallad</a>
+          <a href="/darecallad/CFM/commit/88a67ee6bf9812704cc956ab3c06ec076d0246f9" class="message" data-pjax="true" title=" test with database"> test with database</a>
+      </div>
 
     <div class="commit-tease-contributors">
-      <img alt="" class="loader-loading float-left" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" />
-      <span class="loader-error">Cannot retrieve contributors at this time</span>
+      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
+        <strong>2</strong>
+         contributors
+      </button>
+          <a class="avatar-link tooltipped tooltipped-s" aria-label="Toriz00" href="/darecallad/CFM/commits/database/src/mainpages/main.java?author=Toriz00"><img alt="@Toriz00" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/13909684?s=40&amp;v=4" width="20" /> </a>
+    <a class="avatar-link tooltipped tooltipped-s" aria-label="darecallad" href="/darecallad/CFM/commits/database/src/mainpages/main.java?author=darecallad"><img alt="@darecallad" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/27443134?s=40&amp;v=4" width="20" /> </a>
+
+
     </div>
-</include-fragment>
+
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list" data-facebox-id="facebox-description">
+          <li class="facebox-user-list-item">
+            <img alt="@Toriz00" height="24" src="https://avatars1.githubusercontent.com/u/13909684?s=48&amp;v=4" width="24" />
+            <a href="/Toriz00">Toriz00</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img alt="@darecallad" height="24" src="https://avatars0.githubusercontent.com/u/27443134?s=48&amp;v=4" width="24" />
+            <a href="/darecallad">darecallad</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
 
   <div class="file">
     <div class="file-header">
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a href="/darecallad/CFM/raw/master/src/mainpages/registrationForm.java" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/darecallad/CFM/blame/master/src/mainpages/registrationForm.java" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
-      <a href="/darecallad/CFM/commits/master/src/mainpages/registrationForm.java" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+      <a href="/darecallad/CFM/raw/master/src/mainpages/main.java" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/darecallad/CFM/blame/master/src/mainpages/main.java" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="/darecallad/CFM/commits/master/src/mainpages/main.java" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -655,12 +686,12 @@
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/darecallad/CFM/edit/master/src/mainpages/registrationForm.java" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="MrI+rO4nL0NCU4vL6VO+pgPoAIxUDDO7ifrRU4XLRkT0IYuFnYO19Du6bV4nOtCDPsM+IU0C2kWAfKy1DALqfQ==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/darecallad/CFM/edit/master/src/mainpages/main.java" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="wJqAa79/xEsLKQ/Kb8so0KsVeiUwr9NJfWTGxOG//VNJgJYMyMbkmM9OXxdduAth5hVFUoNImoYKJTn5uo+TXg==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Edit this file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
           </button>
-</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/darecallad/CFM/delete/master/src/mainpages/registrationForm.java" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+ZvhT7kkxlBQymz1GT3Iqfl41KarKyzfzMm7wJ+9+kvuq5xgR0Hy7GIS2Vx38MYs7ZHECr3hRsroDzjo3+eJow==" /></div>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/darecallad/CFM/delete/master/src/mainpages/main.java" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="j5LtCKvxDcNqc2uIgfUHx6MrCkBNjpwohj9Dob3Syz67jDahZ3Sucp5SfygUTmzT8tTYygdAzVQBZR0XebnXrA==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Delete this file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -668,9 +699,9 @@
 </form>  </div>
 
   <div class="file-info">
-      34 lines (23 sloc)
+      61 lines (49 sloc)
       <span class="file-info-divider"></span>
-    961 Bytes
+    1.55 KB
   </div>
 </div>
 
@@ -693,107 +724,105 @@
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.servlet.ServletException</span>;</td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.servlet.annotation.WebServlet</span>;</td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.servlet.ServletConfig</span>;</td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.servlet.http.HttpServlet</span>;</td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.servlet.ServletException</span>;</td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.servlet.http.HttpServletRequest</span>;</td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.servlet.annotation.WebServlet</span>;</td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.servlet.http.HttpServletResponse</span>;</td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.servlet.http.HttpServlet</span>;</td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.servlet.http.HttpServletRequest</span>;</td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-k">import</span> <span class="pl-smi">javax.servlet.http.HttpServletResponse</span>;</td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@WebServlet</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>/mainpages/registrationForm<span class="pl-pds">&quot;</span></span>)</td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">registrationForm</span> <span class="pl-k">extends</span> <span class="pl-e">HttpServlet</span> {</td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">/*</span>*</span></td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">private</span> <span class="pl-k">static</span> <span class="pl-k">final</span> <span class="pl-k">long</span> serialVersionUID <span class="pl-k">=</span> <span class="pl-c1">1L</span>;</td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> * Servlet implementation class main</span></td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">       </td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-c"> <span class="pl-c">*/</span></span></td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">    </td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-k">@WebServlet</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>/main<span class="pl-pds">&quot;</span></span>)</td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-en">registrationForm</span>() {</td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">main</span> <span class="pl-k">extends</span> <span class="pl-e">HttpServlet</span> {</td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">super</span>();</td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">private</span> <span class="pl-k">static</span> <span class="pl-k">final</span> <span class="pl-k">long</span> serialVersionUID <span class="pl-k">=</span> <span class="pl-c1">1L</span>;</td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"><span class="pl-c">//</span> TODO Auto-generated constructor stub</span></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">       </td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">    }</td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">/*</span>*</span></td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-c">     * @see HttpServlet#HttpServlet()</span></td>
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">	</td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-c">     <span class="pl-c">*/</span></span></td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">protected</span> <span class="pl-k">void</span> <span class="pl-en">doGet</span>(<span class="pl-smi">HttpServletRequest</span> <span class="pl-v">request</span>, <span class="pl-smi">HttpServletResponse</span> <span class="pl-v">response</span>) <span class="pl-k">throws</span> <span class="pl-smi">ServletException</span>, <span class="pl-smi">IOException</span> {</td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-en">main</span>() {</td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">		<span class="pl-c"><span class="pl-c">//</span> TODO Auto-generated method stub</span></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">super</span>();</td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">		response<span class="pl-k">.</span>getWriter()<span class="pl-k">.</span>append(<span class="pl-s"><span class="pl-pds">&quot;</span>Served at: <span class="pl-pds">&quot;</span></span>)<span class="pl-k">.</span>append(request<span class="pl-k">.</span>getContextPath());</td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">        <span class="pl-c"><span class="pl-c">//</span> TODO Auto-generated constructor stub</span></td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">	}</td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">    }</td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">    </td>
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">	</td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">    <span class="pl-c"><span class="pl-c">//</span> SQL</span></td>
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">protected</span> <span class="pl-k">void</span> <span class="pl-en">doPost</span>(<span class="pl-smi">HttpServletRequest</span> <span class="pl-v">request</span>, <span class="pl-smi">HttpServletResponse</span> <span class="pl-v">response</span>) <span class="pl-k">throws</span> <span class="pl-smi">ServletException</span>, <span class="pl-smi">IOException</span> {</td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">public</span> <span class="pl-k">void</span> <span class="pl-en">init</span>(<span class="pl-smi">ServletConfig</span> <span class="pl-v">config</span>) <span class="pl-k">throws</span> <span class="pl-smi">ServletException</span> {</td>
       </tr>
       <tr>
         <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
@@ -801,20 +830,130 @@
       </tr>
       <tr>
         <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">		doGet(request, response);</td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">    	<span class="pl-k">try</span></td>
       </tr>
       <tr>
         <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">	}</td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">        {</td>
       </tr>
       <tr>
         <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">            <span class="pl-smi">Class</span><span class="pl-k">.</span>forName( <span class="pl-s"><span class="pl-pds">&quot;</span>com.mysql.jdbc.Driver<span class="pl-pds">&quot;</span></span> );</td>
       </tr>
       <tr>
         <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">}</td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">        }</td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">catch</span>( <span class="pl-smi">ClassNotFoundException</span> e )</td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">        {</td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">throw</span> <span class="pl-k">new</span> <span class="pl-smi">ServletException</span>( e );</td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">        }</td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">		</td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">	<span class="pl-c"><span class="pl-c">/*</span>*</span></td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line"><span class="pl-c">	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)</span></td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line"><span class="pl-c">	 <span class="pl-c">*/</span></span></td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">protected</span> <span class="pl-k">void</span> <span class="pl-en">doGet</span>(<span class="pl-smi">HttpServletRequest</span> <span class="pl-v">request</span>, <span class="pl-smi">HttpServletResponse</span> <span class="pl-v">response</span>) <span class="pl-k">throws</span> <span class="pl-smi">ServletException</span>, <span class="pl-smi">IOException</span> {</td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">		<span class="pl-c"><span class="pl-c">//</span> TODO Auto-generated method stub</span></td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">		</td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">		</td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">		<span class="pl-c"><span class="pl-c">//</span> connect with Index.jsp</span></td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">		request<span class="pl-k">.</span>getRequestDispatcher( <span class="pl-s"><span class="pl-pds">&quot;</span>Index.jsp<span class="pl-pds">&quot;</span></span> )<span class="pl-k">.</span>forward( request, response );</td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">	}</td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">	<span class="pl-c"><span class="pl-c">/*</span>*</span></td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line"><span class="pl-c">	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)</span></td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line"><span class="pl-c">	 <span class="pl-c">*/</span></span></td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">protected</span> <span class="pl-k">void</span> <span class="pl-en">doPost</span>(<span class="pl-smi">HttpServletRequest</span> <span class="pl-v">request</span>, <span class="pl-smi">HttpServletResponse</span> <span class="pl-v">response</span>) <span class="pl-k">throws</span> <span class="pl-smi">ServletException</span>, <span class="pl-smi">IOException</span> {</td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">		<span class="pl-c"><span class="pl-c">//</span> TODO Auto-generated method stub</span></td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line">		doGet(request, response);</td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">	}</td>
+      </tr>
+      <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">}</td>
       </tr>
 </table>
 
@@ -832,7 +971,7 @@
       <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
         <li><a class="js-zeroclipboard dropdown-item" style="cursor:pointer;" id="js-copy-lines" data-original-text="Copy lines">Copy lines</a></li>
         <li><a class="js-zeroclipboard dropdown-item" id= "js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</a></li>
-        <li><a href="/darecallad/CFM/blame/3e37f133177bbe5f0bbae44e5521557bb2c203c2/src/mainpages/registrationForm.java" class="dropdown-item js-update-url-with-hash" id="js-view-git-blame">View git blame</a></li>
+        <li><a href="/darecallad/CFM/blame/3e37f133177bbe5f0bbae44e5521557bb2c203c2/src/mainpages/main.java" class="dropdown-item js-update-url-with-hash" id="js-view-git-blame">View git blame</a></li>
           <li><a href="/darecallad/CFM/issues/new" class="dropdown-item" id="js-new-issue">Open new issue</a></li>
       </ul>
     </div>
@@ -862,7 +1001,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2017 <span title="0.17601s from unicorn-1893225304-z8zxp">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2017 <span title="0.19186s from unicorn-1893225304-103q8">GitHub</span>, Inc.</li>
         <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
@@ -923,3 +1062,37 @@
   </body>
 </html>
 
+=======
+package mainpages;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/mainpages/registrationForm")
+public class registrationForm extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    
+    public registrationForm() {
+        super();
+    }
+
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}
+>>>>>>> d0b201b46f9d05b74d59ef1fe9d6cfe0f57a9a02:src/mainpages/registrationForm.java

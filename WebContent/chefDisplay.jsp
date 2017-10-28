@@ -9,15 +9,7 @@
 </head>
 <body>
 
-Chef-ID: ${chefid }
-<br>
-Chef-Name: ${chefname }
-<br>
-Chef-Email: ${chefemail }
-<br>
-Chef-Description : ${chefdescription} 
-<br>
-Chef-Rate : ${ chefrate }
+
 
 <table border="1" cellpadding = "2" width="50%">
 <tr>

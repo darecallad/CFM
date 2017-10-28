@@ -50,12 +50,17 @@
 								<li>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									<a href="Chefs.jsp"><img src="images/ItalianChef.jpg" alt="Img"></a>
 									<h2><a href="Chefs.jsp">Italian Chefs</a></h2>
 =======
 									<a href="searchChefs?foodType=Italian_style"><img src="images/ItalianChef.jpg" alt="Img"></a>
 									<h2><a href="searchChefs?foodType=Italian_style">Italian Chefs</a></h2>
 >>>>>>> 3e37f133177bbe5f0bbae44e5521557bb2c203c2
+=======
+									<a href="Chefs.jsp"><img src="images/ItalianChef.jpg" alt="Img"></a>
+									<h2><a href="Chefs.jsp">Italian Chefs</a></h2>
+>>>>>>> d0b201b46f9d05b74d59ef1fe9d6cfe0f57a9a02
 =======
 									<a href="Chefs.jsp"><img src="images/ItalianChef.jpg" alt="Img"></a>
 									<h2><a href="Chefs.jsp">Italian Chefs</a></h2>
@@ -68,12 +73,17 @@
 								<li>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									<a href="Chefs.jsp"><img src="images/IndianChef.jpg" alt="Img"></a>
 									<h2><a href="Chefs.jsp">Indian Chefs</a></h2>
 =======
 									<a href="searchChefs?foodType=Indian_style"><img src="images/IndianChef.jpg" alt="Img"></a>
 									<h2><a href="searchChefs?foodType=Indian_style">Indian Chefs</a></h2>
 >>>>>>> 3e37f133177bbe5f0bbae44e5521557bb2c203c2
+=======
+									<a href="Chefs.jsp"><img src="images/IndianChef.jpg" alt="Img"></a>
+									<h2><a href="Chefs.jsp">Indian Chefs</a></h2>
+>>>>>>> d0b201b46f9d05b74d59ef1fe9d6cfe0f57a9a02
 =======
 									<a href="Chefs.jsp"><img src="images/IndianChef.jpg" alt="Img"></a>
 									<h2><a href="Chefs.jsp">Indian Chefs</a></h2>
@@ -86,12 +96,17 @@
 								<li>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									<a href="Chefs.jsp"><img src="images/AsianChef.jpg" alt="Img"></a>
 									<h2><a href="Chefs.jsp">Asian Chefs</a></h2>
 =======
 									<a href="searchChefs?foodType=Asian_style"><img src="images/AsianChef.jpg" alt="Img"></a>
 									<h2><a href="searchChefs?foodType=Asian_style">Asian Chefs</a></h2>
 >>>>>>> 3e37f133177bbe5f0bbae44e5521557bb2c203c2
+=======
+									<a href="Chefs.jsp"><img src="images/AsianChef.jpg" alt="Img"></a>
+									<h2><a href="Chefs.jsp">Asian Chefs</a></h2>
+>>>>>>> d0b201b46f9d05b74d59ef1fe9d6cfe0f57a9a02
 =======
 									<a href="Chefs.jsp"><img src="images/AsianChef.jpg" alt="Img"></a>
 									<h2><a href="Chefs.jsp">Asian Chefs</a></h2>

@@ -7,7 +7,7 @@
 <title>Payment Information</title>
 </head>
 <body>
-	<form id="simplify-payment-form" action="payConfirm.jsp" method="POST">
+	<form id="paymentForm" action="payConfirm.jsp" method="POST">
 
 		<div>
 

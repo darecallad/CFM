@@ -7,7 +7,7 @@
 <title>Confirm Payment</title>
 </head>
 <body>
-<form id="payment-confirmation-form" action="contact.jsp" method="POST">
+<form id="payConfirmForm" action="contact.jsp" method="POST">
  <h1>Payment Confirmation</h1>
       <ul>
       

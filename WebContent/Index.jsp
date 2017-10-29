@@ -26,7 +26,7 @@
 							<a href="Chefs.jsp">Chefs</a>
 						</li>
 						<li>
-							<a href="Index.jsp">Link</a>
+						<a href="shopCart.jsp">Cart</a>
 						</li>
 						<li>
 							<a href="foods.jsp">Food</a>
@@ -37,6 +37,7 @@
 						<li>
 							<a href="contact.jsp">Contact</a>
 						</li>
+						
 					</ul>
 				</div>
 			</div>
@@ -110,7 +111,7 @@
 						<a href="Chefs.jsp">Chefs</a>
 					</li>
 					<li>
-						<a href="file.jsp">Link</a>
+						<a href="shopCart.jsp">Cart</a>
 					</li>
 					<li>
 						<a href="foods.jsp">Food</a>

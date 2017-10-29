@@ -12,7 +12,7 @@
 		<div id="page">
 			<div id="header">
 				<div id="logo">
-					
+					<a href="Index.jsp"><img src="images/WineAndCheese.jpg" alt="LOGO" height="112" width="118"></a>
 				</div>
 				<div id="navigation">
 					<ul>
@@ -26,10 +26,10 @@
 							<a href="Chefs.jsp">Chefs</a>
 						</li>
 						<li>
-							<a href="gallery.jsp">Gallery</a>
+							<a href="Index.jsp">Link</a>
 						</li>
 						<li>
-							<a href="foods.jsp">Other</a>
+							<a href="foods.jsp">Food</a>
 						</li>
 						<li>
 							<a href="news.jsp">News</a>
@@ -77,7 +77,7 @@
 							<div>
 								<h3>Testimonials</h3>
 								<p>
-									“I hac habitasse platea dictumst. Integer purus justo, egestas eu consectetur eu, cursus in tortor. 
+									“In hac habitasse platea dictumst. Integer purus justo, egestas eu consectetur eu, cursus in tortor. 
 									Quisque nec nunc ac mi ultrices iaculis. Aenean quis elit mauris, nec vestibulum lorem.” <span>- <a href="Index.jsp">Joe Doe</a></span>
 								</p>
 							</div>
@@ -110,7 +110,7 @@
 						<a href="Chefs.jsp">Chefs</a>
 					</li>
 					<li>
-						<a href="gallery.jsp">gallery</a>
+						<a href="file.jsp">Link</a>
 					</li>
 					<li>
 						<a href="foods.jsp">Food</a>

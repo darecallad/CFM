@@ -95,10 +95,10 @@
 						<a href="Chefs.jsp">Chefs</a>
 					</li>
 					<li>
-						<a href="gallery.jsp">gallery</a>
+						<a href="file.jsp">Link</a>
 					</li>
 					<li>
-						<a href="foods.jsp">Other Services</a>
+						<a href="foods.jsp">Food</a>
 					</li>
 					<li>
 						<a href="news.jsp">News</a>

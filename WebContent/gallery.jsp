@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>about CFM</title>
+<title>gallery CFM</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -29,7 +29,7 @@
 							<a href="gallery.jsp">Gallery</a>
 						</li>
 						<li>
-							<a href="foods.jsp">Other Services</a>
+							<a href="foods.jsp">Other</a>
 						</li>
 						<li>
 							<a href="news.html">News</a>
@@ -44,33 +44,12 @@
 				<div class="box">
 					<div>
 						<div class="body">
-							<h1>About</h1>
-							<h2>We can make your date magical!</h2>
-							<p>
-								asdfghjkl;[poiuytsaxcvkl;;lkresxcvbl;iuyrd].
-							</p>
-							<p>
-								asdfghjkl;';lkfdsdfghjkl';lkjhf
-							</p>
-							<hr>
-							<div class="ads">
-								<h2>Our Chefs</h2>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a arcu ipsum.
-								</p>
-								<h2>Other Services</h2>
-								<p>
-									Phasellus porta ultrices lorem vel luctus.Cras sodales nulla vitae eros fermentum consequat. Aenean at purus odio.
-								</p>
-							</div>
-							<h2>Be Part of Our Team</h2>
-							<p>
-								sdfghkl;oiuytresxcvbn;oiutdcvbn
-							</p>
-							<h2>Job Opportunities</h2>
-							<p>
-								sdfghjkl;oiuydskl;lkjhgfdcvnlkjh
-							</p>
+							<h1>Gallery</h1>
+							
+							
+							
+							
+							
 						</div>
 					</div>
 				</div>
@@ -92,7 +71,7 @@
 						<a href="gallery.jsp">gallery</a>
 					</li>
 					<li>
-						<a href="foods.jsp">Other Services</a>
+						<a href="foods.jsp">Other</a>
 					</li>
 					<li>
 						<a href="news.jsp">News</a>

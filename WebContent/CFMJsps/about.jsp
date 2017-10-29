@@ -26,10 +26,10 @@
 							<a href="Chefs.jsp">Chefs</a>
 						</li>
 						<li>
-							<a href="gallery.jsp">Gallery</a>
+							<a href="dives.html">Dive Site</a>
 						</li>
 						<li>
-							<a href="foods.jsp">Other Services</a>
+							<a href="foods.jsp">Food</a>
 						</li>
 						<li>
 							<a href="news.html">News</a>
@@ -89,10 +89,10 @@
 						<a href="Chefs.jsp">Chefs</a>
 					</li>
 					<li>
-						<a href="gallery.jsp">gallery</a>
+						<a href="file.jsp">Link Site</a>
 					</li>
 					<li>
-						<a href="foods.jsp">Other Services</a>
+						<a href="foods.jsp">Food</a>
 					</li>
 					<li>
 						<a href="news.jsp">News</a>

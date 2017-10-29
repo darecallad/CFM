@@ -48,7 +48,7 @@
 							<h1>Chefs</h1>
 							<ul id="chefs">
 								<li>
-									<a href="ItalianChefs.jsp"><img src="images/ItalianChef.jpg" alt="Img"></a>
+									<a href="Chefs.jsp"><img src="images/ItalianChef.jpg" alt="Img"></a>
 									<h2><a href="Chefs.jsp">Italian Chefs</a></h2>
 									<p>
 										Cras dui sapien, feugiat vitae tristique ut, lobortis tempor orci. Donec pulvinar sagittis metus ut tristique. Pellentes que habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas idios.
@@ -90,10 +90,10 @@
 						<a href="Chefs.jsp">Chefs</a>
 					</li>
 					<li>
-						<a href="gallery.jsp">gallery</a>
+						<a href="file.jsp">Link</a>
 					</li>
 					<li>
-						<a href="foods.jsp">Other Services</a>
+						<a href="foods.jsp">Food</a>
 					</li>
 					<li>
 						<a href="news.jsp">News</a>

@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Chefs CFM</title>
+	<title>Italian Chefs CFM</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -45,11 +45,11 @@
 				<div class="box">
 					<div>
 						<div class="body">
-							<h1>Chefs</h1>
+							<h1>Italian Chefs</h1>
 							<ul id="chefs">
 								<li>
-									<a href="ItalianChefs.jsp"><img src="images/ItalianChef.jpg" alt="Img"></a>
-									<h2><a href="Chefs.jsp">Italian Chefs</a></h2>
+									<a href="Chefs.jsp"><img src="images/luigi.jpg" height= "267" width= "400" alt="Img"></a>
+									<h2><a href="Chefs.jsp">Luigi Work</a></h2>
 									<p>
 										Cras dui sapien, feugiat vitae tristique ut, lobortis tempor orci. Donec pulvinar sagittis metus ut tristique. Pellentes que habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas idios.
 									</p>
@@ -61,7 +61,7 @@
 									<p>
 										Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.
 									</p>
-									<span class="rate">Rate: 150 / Day</span>
+									<span class="rate">Reserve</span>
 								</li>
 								<li>
 									<a href="Chefs.jsp"><img src="images/AsianChef.jpg" alt="Img"></a>

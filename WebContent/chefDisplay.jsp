@@ -24,7 +24,7 @@
 <c:forEach items="${Chefs }" var="Chefs" varStatus="ChefsStatus">
 	<tr >
 		<td > <strong>${Chefs.id }</strong><br></td>
-		<td > <strong>${Chefs.name }</strong><br></td>
+		<td > <a href = chefPro.jsp <strong>${Chefs.name }</strong>></a><br></td>
 		<td > <strong>${Chefs.email }</strong><br></td>
 		<td > <strong>${Chefs.description }</strong><br></td>
 		<td > <strong>${Chefs.rate }</strong><br></td>

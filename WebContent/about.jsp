@@ -47,10 +47,10 @@
 							<h1>About</h1>
 							<h2>We can make your date magical!</h2>
 							<p>
-								asdfghjkl;[poiuytsaxcvkl;;lkresxcvbl;iuyrd].
+								<img src="images/Fancy-Dinner.jpg"  >
 							</p>
 							<p>
-								asdfghjkl;';lkfdsdfghjkl';lkjhf
+								
 							</p>
 							<hr>
 							<div class="ads">
@@ -63,13 +63,13 @@
 									Phasellus porta ultrices lorem vel luctus.Cras sodales nulla vitae eros fermentum consequat. Aenean at purus odio.
 								</p>
 							</div>
-							<h2>Be Part of Our Team</h2>
+							<h2>Be Part of Our Team/ Job Opportunities</h2>
 							<p>
-								sdfghkl;oiuytresxcvbn;oiutdcvbn
+							    OKAY! WRITE SOMETHING HERE PLEASE
 							</p>
-							<h2>Job Opportunities</h2>
+							
 							<p>
-								sdfghjkl;oiuydskl;lkjhgfdcvnlkjh
+								
 							</p>
 						</div>
 					</div>

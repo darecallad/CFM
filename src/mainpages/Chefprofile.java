@@ -1,6 +1,12 @@
 package mainpages;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -27,7 +33,70 @@ public class Chefprofile extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		
+
+		String chefName=null;
+		String chefID= request.getParameter("id"); // get request from jsp
+		String chefEmail=null;
+		String cheftype= null;
+		String chefDescription = null;
+		int chefRate = 0;
+		
+Connection c = null;
+		
+		try
+        {
+            String url = "jdbc:mysql://cs3.calstatela.edu/cs3337stu07";
+
+            String username = "cs3337stu07";
+            String password = "CJNI06oM";
+
+            c = DriverManager.getConnection( url, username,
+                password );
+            Statement stmt = c.createStatement();
+            
+            
+            ResultSet rs = stmt.executeQuery( "select * from chefs where id = '"+ chefID +"';");
+
+            while( rs.next() )
+            {
+            	// chefID = rs.getInt("id");
+                chefName = rs.getString("name");
+                chefEmail = rs.getString("email");
+                chefDescription = rs.getString("description");
+                chefRate = rs.getInt("rate");
+                
+                // Chefs.add(new Chefs_CFM(chefID,chefName,chefEmail,chefDescription,chefRate));
+            }          
+            
+
+
+            c.close();
+        }
+        catch( SQLException e )
+        {
+            throw new ServletException( e );
+        }
+		finally
+	        {
+	            try
+	            {
+	                if( c != null ) c.close();
+	            }
+	            catch( SQLException e )
+	            {
+	                throw new ServletException( e );
+	            }
+	        }
+	
+		
+		request.setAttribute("chefemail", chefEmail);
+		request.setAttribute("chefname", chefName);
+		request.setAttribute("chefid", chefID);
+		request.setAttribute("chefdescription", chefDescription);
+		request.setAttribute("chefrate", chefRate);
+		// request.setAttribute("Chefs", Chefs);
+		request.getRequestDispatcher( "chefPro.jsp" ).forward( request, response );
 	}
 
 	/**

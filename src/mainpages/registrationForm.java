@@ -50,7 +50,7 @@ public class registrationForm extends HttpServlet {
                 password );
             Statement stmt = c.createStatement();
             
-            
+            stmt.executeUpdate("insert into departments (name) value ('"+ name +"');");
          //   ResultSet rs = stmt.executeQuery( "select * from chefs where id = '"+ chefID +"';");
 
           //  while( rs.next() )

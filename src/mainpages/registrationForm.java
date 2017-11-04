@@ -33,9 +33,18 @@ public class registrationForm extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		
-		String name = request.getParameter("username");
-		String email = request.getParameter("useremail");
+		// customer
+		String cfirstname = request.getParameter("cfirstname");
+		String clastname = request.getParameter("clastname");
+		String cemail = request.getParameter("cemail");
+		String ccardnumber = request.getParameter("ccardnumber");
+		String cphonenumber = request.getParameter("cphonenumber");
+		// chefs
+		String ffirstname = request.getParameter("ffirstname");
+		String flastname = request.getParameter("flastname");
+		String femail = request.getParameter("femail");
+		String fcardnumber = request.getParameter("fcardnumber");
+		String fphonenumber = request.getParameter("fphonenumber");
 		
 		Connection c = null;
 	
@@ -50,6 +59,13 @@ public class registrationForm extends HttpServlet {
                 password );
             Statement stmt = c.createStatement();
             
+            // customer 
+            stmt.executeUpdate("insert into customerregi (firstname, lastname, email, cardnumber, phonenumber) "
+            		+ "value ('"+cfirstname+"', "+clastname+", "+cemail+" , "+ccardnumber+" , "+cphonenumber+");");          	   
+
+            // chefs
+            stmt.executeUpdate("insert into chefregi (firstname, lastname, email, cardnumber, phonenumber) "
+            		+ "value ('"+ffirstname+"', "+flastname+", "+femail+" , "+fcardnumber+" , "+fphonenumber+");");  
             
          //   ResultSet rs = stmt.executeQuery( "select * from chefs where id = '"+ chefID +"';");
 

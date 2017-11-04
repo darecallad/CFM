@@ -48,15 +48,15 @@ function swapConfig(x) {
 									<div id="userRegistrationDetails"> 
 										<p>
 											First name:<br>
- 											<input type="text" name="firstname" value="First Name" onclick="this.value=''" /><br> <br>
+ 											<input type="text" name="cfirstname" value="First Name" onclick="this.value=''" /><br> <br>
  											Last name:<br>
- 											<input type="text" name="lastname" value="Last Name" onclick="this.value=''" /><br> <br>
+ 											<input type="text" name="clastname" value="Last Name" onclick="this.value=''" /><br> <br>
  											Email: <br>
- 											<input type="text" name="email" value="Email Address" onclick="this.value=''" /><br> <br>
+ 											<input type="text" name="cemail" value="Email Address" onclick="this.value=''" /><br> <br>
  											Credit/Debit Card Number: <br>
-											<input type="text" name="cardnumber" value="Card Number" onclick="this.value=''" /><br> <br>
+											<input type="text" name="ccardnumber" value="Card Number" onclick="this.value=''" /><br> <br>
 											Phone Number: <br>
-											<input type="text" name="phonenumber" value="Phone Number" onclick="this.value=''" /><br> <br>
+											<input type="text" name="cphonenumber" value="Phone Number" onclick="this.value=''" /><br> <br>
 											
 											<input type="submit" value="register" />
     									</p>
@@ -64,15 +64,15 @@ function swapConfig(x) {
   									<div id="chefRegistrationDetails" style="display:none">
     									<p>
       										First name:<br>
- 											<input type="text" name="firstname" value="First Name" onclick="this.value=''" /><br> <br>
+ 											<input type="text" name="ffirstname" value="First Name" onclick="this.value=''" /><br> <br>
  											Last name:<br>
- 											<input type="text" name="lastname" value="Last Name" onclick="this.value=''" /><br> <br>
+ 											<input type="text" name="flastname" value="Last Name" onclick="this.value=''" /><br> <br>
  											Email: <br>
- 											<input type="text" name="email" value="Email Address" onclick="this.value=''" /><br> <br>
+ 											<input type="text" name="femail" value="Email Address" onclick="this.value=''" /><br> <br>
  											Credit/Debit Card Number: <br>
-											<input type="text" name="cardnumber" value="Card Number" onclick="this.value=''" /><br> <br>
+											<input type="text" name="fcardnumber" value="Card Number" onclick="this.value=''" /><br> <br>
 											Phone Number: <br>
-											<input type="text" name="phonenumber" value="Phone Number" onclick="this.value=''" /><br> <br>
+											<input type="text" name="fphonenumber" value="Phone Number" onclick="this.value=''" /><br> <br>
 											<input type="submit" value="register" />
     									</p>
     								</div>  

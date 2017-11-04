@@ -29,7 +29,7 @@
 							<a href="Index.jsp">Link</a>
 						</li>
 						<li>
-							<a href="foods.jsp">Food</a>
+							<a href="registration.jsp">Registration</a>
 						</li>
 						<li>
 							<a href="news.jsp">News</a>

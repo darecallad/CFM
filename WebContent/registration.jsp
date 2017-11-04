@@ -40,7 +40,7 @@ function swapConfig(x) {
 						<div class="body">
 							<h1>Registration Form</h1>
 							<h2>Users and Chefs</h2>
-							<form id="radioSubmit" action="process.jsp">
+							<form id="radioSubmit" action="registrationForm" method="Post">
 								<label for="user">User</label>
 								<input type="radio" onchange="swapConfig(this)" name="urlOptions" id="user" checked="checked" />
 								<label for="chef">Chef</label>
@@ -57,8 +57,7 @@ function swapConfig(x) {
 											<input type="text" name="cardnumber" value="Card Number" onclick="this.value=''" /><br> <br>
 											Phone Number: <br>
 											<input type="text" name="phonenumber" value="Phone Number" onclick="this.value=''" /><br> <br>
-											Password: <br>
-											<input type="password" name="password" value="Password" onclick="this.value=''" /><br> <br>
+											
 											<input type="submit" value="register" />
     									</p>
   									</div>
@@ -74,8 +73,6 @@ function swapConfig(x) {
 											<input type="text" name="cardnumber" value="Card Number" onclick="this.value=''" /><br> <br>
 											Phone Number: <br>
 											<input type="text" name="phonenumber" value="Phone Number" onclick="this.value=''" /><br> <br>
-											Password: <br>
-											<input type="password" name="password" value="Password" onclick="this.value=''" /><br> <br>
 											<input type="submit" value="register" />
     									</p>
     								</div>  

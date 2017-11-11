@@ -6,6 +6,8 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,16 +16,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class Chefprofile
+ * Servlet implementation class Order
  */
-@WebServlet("/Chefprofile")
-public class Chefprofile extends HttpServlet {
+@WebServlet("/Order")
+public class Order extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Chefprofile() {
+    public Order() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -33,14 +35,13 @@ public class Chefprofile extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		String foodtype = request.getParameter("type");
 		
-
-		String chefName=null;
-		String chefID= request.getParameter("id"); // get request from jsp
-		String chefEmail=null;
-		String cheftype= null;
-		String chefDescription = null;
-		int chefRate = 0;
+		String foodname = null;
+		
+		int foodid = 0;
+		List<Food_CFM> Food = new ArrayList<Food_CFM>();
+		
 		
 Connection c = null;
 		
@@ -56,17 +57,17 @@ Connection c = null;
             Statement stmt = c.createStatement();
             
             
-            ResultSet rs = stmt.executeQuery( "select * from chefs where id = '"+ chefID +"';");
+            ResultSet rs = stmt.executeQuery( "select * from food where food_type = '"+ foodtype +"';");
 
             while( rs.next() )
             {
-            	// chefID = rs.getInt("id");
-                chefName = rs.getString("name");
-                chefEmail = rs.getString("email");
-                chefDescription = rs.getString("description");
-                chefRate = rs.getInt("rate");
-                cheftype = rs.getString("type");
-                
+            	 foodid = rs.getInt("id");
+                 foodname = rs.getString("name");
+                 // foodtype = rs.getString("type");
+               // chefDescription = rs.getString("description");
+               // chefRate = rs.getInt("rate");
+                foodtype = rs.getString("food_type");
+                Food.add(new Food_CFM(foodid,foodname,foodtype));
                 // Chefs.add(new Chefs_CFM(chefID,chefName,chefEmail,chefDescription,chefRate));
             }          
             
@@ -91,13 +92,17 @@ Connection c = null;
 	        }
 	
 		
-		request.setAttribute("chefemail", chefEmail);
-		request.setAttribute("chefname", chefName);
-		request.setAttribute("chefid", chefID);
-		request.setAttribute("chefdescription", chefDescription);
-		request.setAttribute("chefrate", chefRate);
-		request.setAttribute("cheftype", cheftype);
-		request.getRequestDispatcher( "chefPro.jsp" ).forward( request, response );
+		//request.setAttribute("chefemail", chefEmail);
+		request.setAttribute("foodname", foodname);
+		request.setAttribute("foodid", foodid);
+		//request.setAttribute("chefdescription", chefDescription);
+		//request.setAttribute("chefrate", chefRate);
+		request.setAttribute("Food", Food);
+		request.setAttribute("cheftype", foodtype);
+		request.getRequestDispatcher( "Order.jsp" ).forward( request, response );
+		
+		
+		
 	}
 
 	/**
@@ -105,7 +110,8 @@ Connection c = null;
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+		request.getParameter("choose");
+		request.getRequestDispatcher( "Confirm.jsp" ).forward( request, response );
 	}
 
 }

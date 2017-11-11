@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/mainpages/registrationForm")
+@WebServlet("/registrationForm")
 public class registrationForm extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -46,6 +46,12 @@ public class registrationForm extends HttpServlet {
 		String fcardnumber = request.getParameter("fcardnumber");
 		String fphonenumber = request.getParameter("fphonenumber");
 		
+		String choose = request.getParameter("urlOptions");
+		
+		
+		
+		
+		
 		Connection c = null;
 	
 		try
@@ -59,13 +65,18 @@ public class registrationForm extends HttpServlet {
                 password );
             Statement stmt = c.createStatement();
             
+            // string cannot use "=="
+            if (choose.equals("user")){
             // customer 
-            stmt.executeUpdate("insert into customerregi (firstname, lastname, email, cardnumber, phonenumber) "
-            		+ "value ('"+cfirstname+"', "+clastname+", "+cemail+" , "+ccardnumber+" , "+cphonenumber+");");          	   
-
+            stmt.executeUpdate("insert into customeregi (firstname, lastname, email, cardnumber, phonenumber) "
+            		+ "value ('"+cfirstname+"', '"+clastname+"', '"+cemail+"' , '"+ccardnumber+"' , '"+cphonenumber+"');");          	   
+            }
+            else if (choose.equals("chef")){
+            
             // chefs
-            stmt.executeUpdate("insert into chefregi (firstname, lastname, email, cardnumber, phonenumber) "
-            		+ "value ('"+ffirstname+"', "+flastname+", "+femail+" , "+fcardnumber+" , "+fphonenumber+");");  
+           stmt.executeUpdate("insert into chefregi (firstname, lastname, email, cardnumber, phonenumber) "
+            		+ "value ('"+ffirstname+"', '"+flastname+"', '"+femail+"' , '"+fcardnumber+"' , '"+fphonenumber+"');");  
+            }
             
          //   ResultSet rs = stmt.executeQuery( "select * from chefs where id = '"+ chefID +"';");
 
@@ -99,6 +110,14 @@ public class registrationForm extends HttpServlet {
 	                throw new ServletException( e );
 	            }
 	        }
+		
+		
+		response.sendRedirect("main");
 	}
+	
+	
+	
+	
+	
 
 }

@@ -40,11 +40,11 @@ function swapConfig(x) {
 						<div class="body">
 							<h1>Registration Form</h1>
 							<h2>Users and Chefs</h2>
-							<form id="radioSubmit" action="registrationForm" method="Post">
+							<form id="radioSubmit" action="registrationForm" method="POST">
 								<label for="user">User</label>
-								<input type="radio" onchange="swapConfig(this)" name="urlOptions" id="user" checked="checked" />
+								<input type="radio" onchange="swapConfig(this)" name="urlOptions" value ="user" id="user" checked="checked" />
 								<label for="chef">Chef</label>
-								<input type="radio" onchange="swapConfig(this)" name="urlOptions" id="chef" />
+								<input type="radio" onchange="swapConfig(this)" name="urlOptions" value ="chef" id="chef" />
 									<div id="userRegistrationDetails"> 
 										<p>
 											First name:<br>

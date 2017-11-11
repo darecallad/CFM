@@ -16,24 +16,27 @@
 <tr> 
 
     <th>Option</th>
+    <th>Image</th>
 	<th>Name</th>
-	<th>Image</th>
+	
 
 </tr>
 
-<c:forEach items="${Food }" var="Food" varStatus="FoodStatus">
+<c:forEach items="${Food }" var="Food" varStatus="counter">
 	<tr >
+	
+	<td><input type="checkbox" name="choose" value="${Food.name }"></td>
 		<td><img src="image/foodPhoto/${Food.id }.jpg"></td>
-		<td > <strong>${Food.name }</strong><br></td>
-		<td>Option <input type="checkbox" name="choose" value="${Food.name }"></td>
-			
+		<td > <strong>${Food.name }</strong><br></td>			
 	</tr>
+	<input type='hidden' name=counterValue value=${counter.index }>
 </c:forEach>
-
+<tr><td><input type='submit' value='Place Order'></td></tr>
 
 </table>
 
-<input type='submit' value='Place Order'>
+
+
 
 </form>
 

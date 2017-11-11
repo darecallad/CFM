@@ -6,6 +6,12 @@ public class Food_CFM {
 	String name;
 	String food_type;
 	
+	public Food_CFM(String name){
+		super();
+		this.name = name;
+	}
+	
+	
 	
 	public Food_CFM(int id, String name, String food_type){
 		

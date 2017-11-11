@@ -110,8 +110,25 @@ Connection c = null;
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		request.getParameter("choose");
+		String[] array = request.getParameterValues("choose");
+		int count = array.length;
+		
+		
+		List<Food_CFM>Order = new ArrayList<Food_CFM>();
+		//test
+		//request.setAttribute("test", count);
+		//request.getRequestDispatcher( "Confirm.jsp" ).forward( request, response );
+		
+		
+		for (int i = 0; i < count ; i++){
+			String name = array[i];
+			
+			Food_CFM Orders = new Food_CFM(name);
+			Order.add(Orders);
+		}
+		request.setAttribute("Food", Order);
 		request.getRequestDispatcher( "Confirm.jsp" ).forward( request, response );
+		
 	}
 
 }

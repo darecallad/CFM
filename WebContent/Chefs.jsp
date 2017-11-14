@@ -13,7 +13,7 @@
 		<div id="page">
 			<div id="header">
 				<div id="logo">
-					<a href="Index.jsp"><img src="images/" alt="LOGO" height="112" width="118"></a>
+					<a href="Index.jsp"><img src="images/WineAndCheese.jpg" alt="LOGO" height="112" width="118"></a>
 				</div>
 				<div id="navigation">
 					<ul>

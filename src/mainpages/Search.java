@@ -46,6 +46,9 @@ public class Search extends HttpServlet {
             
             ArrayList pid_list = new ArrayList();
             String query =  "select * from chefs where (name like '%"+ pid +"%') or (id like '%"+ pid +"%') or (email like '%"+ pid +"%') or (description like '%"+ pid +"%') or (rate like '%"+ pid +"%')";
+            if (pid == null) {
+            	query = "select * from chefs";
+            }
  
             System.out.println("query " + query);
             st = conn.createStatement();
@@ -63,6 +66,7 @@ public class Search extends HttpServlet {
                 al.add(rs.getString(3));
                 al.add(rs.getString(4));
                 al.add(rs.getString(5));
+                al.add(rs.getString(6));
                 
                 
                 

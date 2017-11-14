@@ -65,6 +65,7 @@
 										<TH>Style</TH>
 										<TH>Email</TH>
 										<TH>Description</TH>
+										<th>Lol</th>
 									</TR>
 									<% while(resultset.next()){ %>
 									<TR>
@@ -73,11 +74,13 @@
 										<TD><%= resultset.getString(3) %></TD>
 										<TD><%= resultset.getString(4) %></TD>
 										<TD><%= resultset.getString(5) %></TD>
+										<TD><%= resultset.getString(6) %></TD>
 									</TR>
 									<% }
 									%>
 								</TABLE>
 								<% 
+								connection.close();
 								}
 								else {
 									Class.forName("com.mysql.jdbc.Driver").newInstance();
@@ -89,12 +92,14 @@
 							            Statement statement = connection.createStatement() ;
 							            %>
 								<table>
-									
+
 									<tr>
-										<td><b>User Name</b></td>
-										<td><b>Password</b></td>
-										<td><b>Email</b></td>
-										<td><b>Registration Date</b></td>
+										<TH>ID</TH>
+										<TH>Name</TH>
+										<TH>Style</TH>
+										<TH>Email</TH>
+										<TH>Description</TH>
+										<th>Lol</th>
 									</tr>
 									<%
 							                     int count = 0;
@@ -110,12 +115,13 @@
 							                             ArrayList pList = (ArrayList) itr.next();
 							                 %>
 									<tr>
-										<td><%=pList.get(0)%></td>
+									<td><%=pList.get(0)%></td>
 										<td><%=pList.get(1)%></td>
 										<td><%=pList.get(2)%></td>
 										<td><%=pList.get(3)%></td>
 										<td><%=pList.get(4)%></td>
 										<td><%=pList.get(5)%></td>
+										
 									</tr>
 									<%
 							                         }
@@ -123,19 +129,19 @@
 							                     if (count == 0) {
 							                 %>
 									<tr>
-										<td><b>No
-												Record Found..</b></td>
+										<td><b>No Record Found..</b></td>
 									</tr>
 									<%            }
 							                 %>
 								</table>
 								<% 
 								}
+								connection.close();
 								%>
 
 
 
-
+								
 							</div>
 						</div>
 					</div>

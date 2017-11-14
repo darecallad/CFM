@@ -11,9 +11,6 @@
 	<div id="background">
 		<div id="page">
 			<div id="header">
-				<div id="logo">
-					<a href="Index.jsp"><img src="images/WineAndCheese.jpg" alt="LOGO" height="112" width="118"></a>
-				</div>
 				<div id="navigation">
 					<ul>
 						<li>
@@ -26,7 +23,7 @@
 							<a href="Chefs.jsp">Chefs</a>
 						</li>
 						<li>
-							<a href="file.jsp">Link</a>
+							<a href="foods.jsp">Extras</a>
 						</li>
 						<li>
 							<a href="foods.jsp">Food</a>
@@ -95,7 +92,7 @@
 						<a href="Chefs.jsp">Chefs</a>
 					</li>
 					<li>
-						<a href="file.jsp">Link</a>
+						<a href="shopCart.jsp">Cart</a>
 					</li>
 					<li>
 						<a href="foods.jsp">Food</a>

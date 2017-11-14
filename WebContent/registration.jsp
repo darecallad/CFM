@@ -53,12 +53,10 @@ function swapConfig(x) {
  											<input type="text" name="clastname" value="Last Name" onclick="this.value=''" /><br> <br>
  											Email: <br>
  											<input type="text" name="cemail" value="Email Address" onclick="this.value=''" /><br> <br>
- 											Credit/Debit Card Number: <br>
-											<input type="text" name="ccardnumber" value="Card Number" onclick="this.value=''" /><br> <br>
 											Phone Number: <br>
 											<input type="text" name="cphonenumber" value="Phone Number" onclick="this.value=''" /><br> <br>
 											
-											<input type="submit" value="register" />
+											<input type="submit" value="Register" />
     									</p>
   									</div>
   									<div id="chefRegistrationDetails" style="display:none">
@@ -69,11 +67,9 @@ function swapConfig(x) {
  											<input type="text" name="flastname" value="Last Name" onclick="this.value=''" /><br> <br>
  											Email: <br>
  											<input type="text" name="femail" value="Email Address" onclick="this.value=''" /><br> <br>
- 											Credit/Debit Card Number: <br>
-											<input type="text" name="fcardnumber" value="Card Number" onclick="this.value=''" /><br> <br>
 											Phone Number: <br>
 											<input type="text" name="fphonenumber" value="Phone Number" onclick="this.value=''" /><br> <br>
-											<input type="submit" value="register" />
+											<input type="submit" value="Register" />
     									</p>
     								</div>  
 							</form>		

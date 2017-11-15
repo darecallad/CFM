@@ -23,7 +23,10 @@
 							<a href="Chefs.jsp">Chefs</a>
 						</li>
 						<li>
+
 							<a href="foods.jsp">Extras</a>
+
+							<a href="shopCart.jsp">Cart</a>
 						</li>
 						<li class="selected">
 							<a href="shopCart.jsp">Cart</a>
@@ -89,7 +92,9 @@
 						<a href="Chefs.jsp">Chefs</a>
 					</li>
 					<li>
+
 						<a href="foods.jsp">Extras</a>
+						<a href="shopCart.jsp">Cart</a>
 					</li>
 					<li class="active">
 						<a href="shopCart.jsp">Cart</a>

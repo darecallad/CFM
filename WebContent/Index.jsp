@@ -41,9 +41,9 @@
 			<div id="contents">
 				<div id="adbox">
 					<img src="images/BeachScene.jpg" alt="Img" height="425" width="852">
-					<h1>We will make your date MAGIC!</h1>
+					<h1>We will make your date MAGICAL!</h1>
 					<p>
-						Lorusdfghjkl;;lkjhgfdsdfghjkllkjh
+						We have work with all kinds of clients and all sorts of requests. And we always have been able to please our clients.
 					</p>
 				</div>
 				<div id="main">
@@ -53,17 +53,17 @@
 								<h3>Latest Blog</h3>
 								<ul>
 									<li>
-										<h4><a href="news.jsp">Best Date Contest Winners</a></h4>
-										<span>April 02, 2023</span>
+										<h4><a href="news.jsp">Our team is compose of the best Chefs in Los Angeles.</a></h4>
+										<span>April 02, 2017</span>
 										<p>
-											Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. Nunc nisi mi, elementum sit amet...
+											We are please to announce that our Chefs are the best Chefs in Los Angeles. They work in the most prestigious restaurants in Los Angeles area.
 										</p>
 									</li>
 									<li>
 										<h4><a href="news.jsp">Top 10 Chefs</a></h4>
 										<span>May 29, 2023</span>
 										<p>
-											Maecenas scelerisque odio quis arcu fringilla malesuada. Nulla facilisi. In libero nulla, fermentum ut pretium ac, pharetra et eros...
+											Our Chefs are part of the Ten Top Chefs in America according to Food Magazine.
 										</p>
 									</li>
 								</ul>
@@ -75,8 +75,9 @@
 							<div>
 								<h3>Testimonials</h3>
 								<p>
-									“In hac habitasse platea dictumst. Integer purus justo, egestas eu consectetur eu, cursus in tortor. 
-									Quisque nec nunc ac mi ultrices iaculis. Aenean quis elit mauris, nec vestibulum lorem.” <span>- <a href="Index.jsp">Joe Doe</a></span>
+									“I hire Chef Luigi for my proposal date. Luigi created this amazing Italian dinner. He also help desing the space.In addition, he took care of the dinnerware and silverware selction
+									all i have to do was relax and try o calm my nerves. I want my dinner to be special and Luigi made it happen. 
+									Currently i am planning my wedding and i will definetly have Luigi be in charge of the menu again..” <span>- <a href="Index.jsp">Joe Doe</a></span>
 								</p>
 							</div>
 						</div>
@@ -87,10 +88,10 @@
 						<a href="Chefs.jsp"><img src="images/Chefs.jpg" alt="Img" height="144" width="285"></a>
 					</div>
 					<div class="section">
-						<a href="dives.html"><img src="images/dive-site.png" alt="Img" height="144" width="285"></a>
+						<a href="foods.html"><img src="images/silverSet.jpg" alt="Img" height="144" width="285"></a>
 					</div>
 					<div class="section">
-						<a href="foods.jsp"><img src="images/food.png" alt="Img" height="144" width="285"></a>
+						<a href="foods.jsp"><img src="images/dinnertable.png" alt="Img" height="144" width="285"></a>
 					</div>
 				</div>
 			</div>

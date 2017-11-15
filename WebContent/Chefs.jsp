@@ -11,7 +11,6 @@
 <body>
 	<div id="background">
 		<div id="page">
-			<div id="header">
 				<div id="navigation">
 					<ul>
 						<li>
@@ -24,13 +23,16 @@
 							<a href="Chefs.jsp">Chefs</a>
 						</li>
 						<li>
+
 							<a href="foods.jsp">Extras</a>
+
+							<a href="shopCart.jsp">Cart</a>
 						</li>
 						<li>
 							<a href="shopCart.jsp">Cart</a>
 						</li>
 						<li>
-							<a href="registration.jsp">Regisration</a>
+							<a href="registration.jsp">Registration</a>
 						</li>
 						<li>
 							<a href="contact.jsp">Contact</a>
@@ -49,7 +51,7 @@
 									
 
 									<a href="searchChefs?foodType=Italian_style"><img src="images/ItalianChef.jpg" alt="Img"></a>
-									<h2><a href="searchChefs?foodType=Italian_style">Italian Chefs</a></h2>
+									<h2><a href="searchChefs?foodType=Italian_style" >Italian Chefs</a></h2>
 
 
 								

@@ -42,7 +42,7 @@
 					<div>
 						<div class="body">
 							<h1>About</h1>
-							<h2>We can make your date magical!</h2>
+							<h2>We will create the most Amazing event for you!</h2>
 							<p>
 								<img src="images/Fancy-Dinner.jpg"  >
 							</p>
@@ -53,11 +53,14 @@
 							<div class="ads">
 								<h2>Our Chefs</h2>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a arcu ipsum.
+									Our team is composed of the most qualify and recognize Chefs. They will work with you to create the finest and elegant 
+									menu of your choice. They will offer a full menu, entre, main plate, dessert and can also do Wine pairing. We have a variety
+									of Chefs that specialize in different types of food. All of them will deliver the best food you can tthink of for your event.
+									Reserve your Chef today and we will do the rest.
 								</p>
 								<h2>Other Services</h2>
 								<p>
-									Phasellus porta ultrices lorem vel luctus.Cras sodales nulla vitae eros fermentum consequat. Aenean at purus odio.
+									
 								</p>
 							</div>
 							<h2>Be Part of Our Team/ Job Opportunities</h2>
@@ -86,6 +89,7 @@
 						<a href="Chefs.jsp">Chefs</a>
 					</li>
 					<li>
+
 						<a href="food.jsp">Extras</a>
 					</li>
 					<li>

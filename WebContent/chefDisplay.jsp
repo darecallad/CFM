@@ -46,7 +46,7 @@
 										<tr>
 											<td><strong>${Chefs.id }</strong><br></td>
 											<td><a href="Chefprofile?id=${Chefs.id }"
-												<strong>${Chefs.name }</strong>></a><br></td>
+											<strong>${Chefs.name }</strong>></a><br></td>
 											<td><strong>${Chefs.email }</strong><br></td>
 											<td><strong>${Chefs.description }</strong><br></td>
 											<td><strong>${Chefs.rate }</strong><br></td>

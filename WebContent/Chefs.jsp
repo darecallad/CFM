@@ -11,9 +11,10 @@
 <body>
 	<div id="background">
 		<div id="page">
+			<div id="header">
 				<div id="navigation">
 					<ul>
-						<li>
+						<li >
 							<a href="Index.jsp">Home</a>
 						</li>
 						<li>
@@ -23,20 +24,18 @@
 							<a href="Chefs.jsp">Chefs</a>
 						</li>
 						<li>
-
-							<a href="foods.jsp">Extras</a>
-
-							<a href="shopCart.jsp">Cart</a>
+						<a href="foods.jsp">Extras</a>
 						</li>
 						<li>
-							<a href="shopCart.jsp">Cart</a>
+						<a href="shopCart.jsp">Cart</a>
 						</li>
 						<li>
-							<a href="registration.jsp">Registration</a>
+						   <a href="registration.jsp">Registration</a>
 						</li>
 						<li>
 							<a href="contact.jsp">Contact</a>
 						</li>
+						
 					</ul>
 				</div>
 			</div>
@@ -47,30 +46,16 @@
 							<h1>Chefs</h1>
 							<ul id="chefs">
 								<li>
-
-									
-
 									<a href="searchChefs?foodType=Italian_style"><img src="images/ItalianChef.jpg" alt="Img"></a>
 									<h2><a href="searchChefs?foodType=Italian_style" >Italian Chefs</a></h2>
-
-
-								
-
 									<p>
 										Cras dui sapien, feugiat vitae tristique ut, lobortis tempor orci. Donec pulvinar sagittis metus ut tristique. Pellentes que habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas idios.
 									</p>
 									<span class="rate">Rate: 220 / Day</span>
 								</li>
 								<li>
-
-									
-
 									<a href="searchChefs?foodType=Indian_style"><img src="images/IndianChef.jpg" alt="Img"></a>
 									<h2><a href="searchChefs?foodType=Indian_style">Indian Chefs</a></h2>
-
-
-									
-
 									<p>
 										Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.
 									</p>

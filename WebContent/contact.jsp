@@ -23,16 +23,13 @@
 							<a href="Chefs.jsp">Chefs</a>
 						</li>
 						<li>
-
 							<a href="foods.jsp">Extras</a>
-
+						</li>
+						<li>
 							<a href="shopCart.jsp">Cart</a>
 						</li>
 						<li>
-							<a href="foods.jsp">Food</a>
-						</li>
-						<li>
-							<a href="news.jsp">News</a>
+							<a href="registration.jsp">Registration</a>
 						</li>
 						<li class="selected">
 							<a href="contact.jsp">Contact</a>
@@ -69,7 +66,7 @@
 							</form>
 							<h2>Cook For Me</h2>
 							<p>
-								<span>Address:</span> 123 Lorem Ipsum Cove, Sed Ut City, LI 12345
+								<span>Address:</span> 1233 Figueroa St, Los Angeles, CA 12345
 							</p>
 							<p>
 								<span>Telephone Number:</span> 1-800-999-9999
@@ -95,13 +92,13 @@
 						<a href="Chefs.jsp">Chefs</a>
 					</li>
 					<li>
+						<a href="foods.jsp">Extras</a>
+					</li>
+					<li>
 						<a href="shopCart.jsp">Cart</a>
 					</li>
 					<li>
-						<a href="foods.jsp">Food</a>
-					</li>
-					<li>
-						<a href="news.jsp">News</a>
+						<a href="registration.jsp">Registration</a>
 					</li>
 					<li class="active">
 						<a href="contact.jsp">Contact</a>

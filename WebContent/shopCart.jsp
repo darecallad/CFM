@@ -11,27 +11,14 @@
 	<div id="background">
 		<div id="page">
 			<div id="header">
-<<<<<<< HEAD
-=======
-				<div id="logo">
-					<a href="Index.jsp"><img src="images/WineAndCheese.jpg"
-						alt="LOGO" height="112" width="118"></a>
-				</div>
->>>>>>> a332c0ea8bb938d777d5573775f0699336b4a00a
 				<div id="navigation">
 					<ul>
 						<li><a href="Index.jsp">Home</a></li>
 						<li><a href="about.jsp">About</a></li>
 						<li><a href="Chefs.jsp">Chefs</a></li>
-<<<<<<< HEAD
 						<li><a href="foods.jsp">Extras</a></li>
 						<li class="selected"><a href="shopCart.jsp">Cart</a></li>
-						<li><a href="regstration.html">Registration</a></li>
-=======
-						<li class="selected"><a href="shopCart.jsp">Cart</a></li>
-						<li><a href="foods.jsp">Food</a></li>
-						<li><a href="news.html">News</a></li>
->>>>>>> a332c0ea8bb938d777d5573775f0699336b4a00a
+						<li><a href="registration.jsp">Registration</a></li>
 						<li><a href="contact.jsp">Contact</a></li>
 					</ul>
 				</div>
@@ -81,15 +68,9 @@
 				<li><a href="Index.jsp">Home</a></li>
 				<li><a href="about.jsp">About</a></li>
 				<li><a href="Chefs.jsp">Chefs</a></li>
-<<<<<<< HEAD
 				<li><a href="foods.jsp">Extras</a></li>
 				<li class="active"><a href="shopCart.jsp">Cart</a></li>
 				<li><a href="regitration.jsp">Registration</a></li>
-=======
-				<li class="active"><a href="shopCart.jsp">Cart</a></li>
-				<li><a href="foods.jsp">Food</a></li>
-				<li><a href="news.jsp">News</a></li>
->>>>>>> a332c0ea8bb938d777d5573775f0699336b4a00a
 				<li><a href="contact.jsp">Contact</a></li>
 			</ul>
 			<div id="connect">

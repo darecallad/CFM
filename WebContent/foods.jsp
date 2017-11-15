@@ -22,13 +22,10 @@
 						<li>
 							<a href="Chefs.jsp">Chefs</a>
 						</li>
-						<li>
-
-							<a href="foods.jsp">Extras</a>
-
-							<a href="shopCart.jsp">Cart</a>
-						</li>
 						<li class="selected">
+							<a href="foods.jsp">Extras</a>
+						</li>
+						<li >
 							<a href="shopCart.jsp">Cart</a>
 						</li>
 						<li>
@@ -44,12 +41,12 @@
 				<div class="box">
 					<div>
 						<div class="body">
-							<h1>Food</h1>
+							<h1>Other Services</h1>
 							<ul id="foods">
 								<li>
 									<h2><a href="foods.jsp">DinnerWare </a></h2>
 									<div class="infos">
-										<a href="foods.jsp"><img src="images/OtherServices/dinnerWare.jpg" alt="Img" height="169" width="400"><span class="cover"></span></a>
+										<a href="foods.jsp"><img src="images/dinnerware1.jpg" alt="Img" height="169" width="400"><span class="cover"></span></a>
 										<p>
 											<span>DinnerWare</span> When reserving you Chef you can add DinnerWare service. We have the best and finest selection.
 										</p>
@@ -58,7 +55,7 @@
 								<li>
 									<h2><a href="foods.jsp">SilverWare</a></h2>
 									<div class="infos">
-										<a href="foods.jsp"><img src="images/OtherServices/silverSet.jpg" alt="Img" height="169" width="400"><span class="cover"></span></a>
+										<a href="foods.jsp"><img src="images/silverset1.jpg" alt="Img" height="169" width="400"><span class="cover"></span></a>
 										<p>
 											<span>SilverWare</span>All our silveware sets are made out of real silevr to add a classy touch to your table.
 										</p>
@@ -67,7 +64,7 @@
 								<li>
 									<h2><a href="foods.jsp">Cleaning Services</a></h2>
 									<div class="infos">
-										<a href="foods.jsp"><img src="images/OtherServices/cleaning.jpg" alt="Img" height="169" width="400"><span class="cover"></span></a>
+										<a href="foods.jsp"><img src="images/cleaning1.jpg" alt="Img" height="169" width="400"><span class="cover"></span></a>
 										<p>
 											<span>Cleaning Services</span>We will take care of the cleaning after your event so all you have to do is just enjoy.
 										</p>
@@ -91,12 +88,11 @@
 					<li>
 						<a href="Chefs.jsp">Chefs</a>
 					</li>
-					<li>
+					<li class="active">
 
 						<a href="foods.jsp">Extras</a>
-						<a href="shopCart.jsp">Cart</a>
 					</li>
-					<li class="active">
+					<li >
 						<a href="shopCart.jsp">Cart</a>
 					</li>
 					<li>

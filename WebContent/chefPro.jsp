@@ -24,6 +24,7 @@
 						<li><a href="contact.jsp">Contact</a></li>
 					</ul>
 				</div>
+				
 				<div id="contents">
 					<div class="box">
 						<div>
@@ -41,25 +42,20 @@
 										<th>Rate</th>
 
 									</tr>
-
 									<tr>
-
 										<td><strong>${chefname }</strong>><br></td>
 										<td><strong>${chefemail }</strong><br></td>
 										<td><strong>${chefdescription }</strong><br></td>
 										<td><strong>${chefrate }</strong><br></td>
-
 									</tr>
 								</table>
-
-								<a href="Order?type=${cheftype }">Next</a>
-
-
-
+								<a href=searchChefs?foodType=Italian_style>Back</a>
+								<a href="Order?type=${cheftype }">Add More Services</a>
 							</div>
 						</div>
 					</div>
 				</div>
+				
 			</div>
 		</div>
 	</div>

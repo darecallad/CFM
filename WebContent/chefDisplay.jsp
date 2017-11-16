@@ -31,22 +31,13 @@
 
 
 
-								<table border="1" cellpadding="2" style="margin: 0 auto; width: 40%; text-align: left">
-									<tr>
-										<th>ID</th>
-										<th>Name</th>
-										<th>Email</th>
-										<th>Description</th>
-										<th>Rate</th>
-
-									</tr>
-
-									<c:forEach items="${Chefs }" var="Chefs"
+								<table  cellpadding="2" style="margin: 0 auto; width: 40%; text-align: left">
+									
+									<c:forEach items="${Chefs}" var="Chefs"
 										varStatus="ChefsStatus">
 										<tr>
-											<td><strong>${Chefs.id }</strong><br></td>
-											<td><a href="Chefprofile?id=${Chefs.id }"
-											<strong>${Chefs.name }</strong>></a><br></td>
+										    <td><strong>${Chefs.name }</strong></td>
+											<td><a href="Chefprofile?id=${Chefs.id }"><img src="images/chefPhoto/${Chefs.id}.jpg" alt="Img" height="100" width="150"></td>
 											<td><strong>${Chefs.email }</strong><br></td>
 											<td><strong>${Chefs.description }</strong><br></td>
 											<td><strong>${Chefs.rate }</strong><br></td>

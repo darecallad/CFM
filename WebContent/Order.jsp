@@ -12,10 +12,6 @@
 	<div id="background">
 		<div id="page">
 			<div id="header">
-				<div id="logo">
-					<a href="Index.jsp"><img src="images/WineAndCheese.jpg"
-						alt="LOGO" height="112" width="118"></a>
-				</div>
 				<div id="navigation">
 					<ul>
 						<li><a href="Index.jsp">Home</a></li>
@@ -27,31 +23,25 @@
 						<li><a href="contact.jsp">Contact</a></li>
 					</ul>
 				</div>
+				
 				<div id="contents">
 					<div class="box">
 						<div>
 							<div class="body" style="text-align: center">
-
-
 								<form action="Order" method="POST">
 
 									<table border="1" cellpadding="2"
 										style="margin: 0 auto; width: 40%; text-align: left">
 										<tr>
-
 											<th>Option</th>
 											<th>Image</th>
 											<th>Name</th>
-
-
 										</tr>
-
 										<c:forEach items="${Food }" var="Food" varStatus="counter">
 											<tr>
-
 												<td><input type="checkbox" name="choose"
 													value="${Food.name }"></td>
-												<td><img src="images/OtherServices/${Food.id }.jpg" heigh= "100"></td>
+												<td><img src="images/OtherServices/${Food.id }.jpg" alt="Img" height="100" width="150"></td>
 												<td><strong>${Food.name }</strong><br></td>
 											</tr>
 											<input type='hidden' name=counterValue
@@ -60,18 +50,13 @@
 										<tr>
 											<td><input type='submit' value='Place Order'></td>
 										</tr>
-
 									</table>
-
-
-
-
 								</form>
-
 							</div>
 						</div>
 					</div>
 				</div>
+				
 			</div>
 		</div>
 	</div>

@@ -5,16 +5,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Chefs CFM</title>
+	<title>Indian Chefs CFM</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
 	<div id="background">
 		<div id="page">
 			<div id="header">
+				<div id="logo">
+					<a href="Index.jsp"><img src="images/" alt="LOGO" height="112" width="118"></a>
+				</div>
 				<div id="navigation">
 					<ul>
-						<li >
+						<li>
 							<a href="Index.jsp">Home</a>
 						</li>
 						<li>
@@ -24,18 +27,17 @@
 							<a href="Chefs.jsp">Chefs</a>
 						</li>
 						<li>
-						<a href="foods.jsp">Extras</a>
+							<a href="file.jsp">Link</a>
 						</li>
 						<li>
-						<a href="shopCart.jsp">Cart</a>
+							<a href="foods.jsp">Food</a>
 						</li>
 						<li>
-						   <a href="registration.jsp">Registration</a>
+							<a href="news.jsp">News</a>
 						</li>
 						<li>
 							<a href="contact.jsp">Contact</a>
 						</li>
-						
 					</ul>
 				</div>
 			</div>
@@ -43,28 +45,35 @@
 				<div class="box">
 					<div>
 						<div class="body">
-							<h1>Chefs</h1>
+							<h1>Indian Chefs</h1>
 							<ul id="chefs">
 								<li>
-									<a href="searchChefs?foodType=Italian_style"><img src="images/ItalianChef.jpg" alt="Img"></a>
-									<h2><a href="searchChefs?foodType=Italian_style" >Italian Chefs</a></h2>
+									<a href="Chefs.jsp"><img src="images/goel.jpg" height= "267" width= "380" alt="Img"></a>
+									<h2><a href="Chefs.jsp">Goel </a></h2>
 									<p>
-										Cras dui sapien, feugiat vitae tristique ut, lobortis tempor orci. Donec pulvinar sagittis metus ut tristique. Pellentes que habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas idios.
+										Goel has been working as a professional chef for more than 10 years.
+										He graduated from Auguste Escoffier School of Culinary Arts. Currently he 
+										works at The Perch in Downtown Los Angeles.  
 									</p>
+									<span class="rate">Reserve</span>
 								</li>
 								<li>
-									<a href="searchChefs?foodType=Indian_style"><img src="images/IndianChef.jpg" alt="Img"></a>
-									<h2><a href="searchChefs?foodType=Indian_style">Indian Chefs</a></h2>
+									<a href="Chefs.jsp"><img src="images/ranveer.jpg" height= "267" width= "380" alt="Img"></a>
+									<h2><a href="Chefs.jsp">Ranveer Brar</a></h2>
 									<p>
-										Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.
+										Ranveer is a very prestigious chef. He is been rank among the best 10 top Chefs. He currently
+										works at Bottega Loui. His work is incredible. He will make you food event a whole new experience.
 									</p>
+									<span class="rate">Reserve</span>
 								</li>
 								<li>
-									<a href="searchChefs?foodType=Asian_style"><img src="images/AsianChef.jpg" alt="Img"></a>
-									<h2><a href="searchChefs?foodType=Asian_style">Asian Chefs</a></h2>
+									<a href="Chefs.jsp"><img src="images/merrick.jpg"  height= "267" width= "380" alt="Img"></a>
+									<h2><a href="Chefs.jsp">Reyansh</a></h2>
 									<p>
-										Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.
+										Reyansh is one of our most talented chefs. He graduated from Gualtiero Marchesi's Gourmet Cookery School.
+										One of the best schools in Italy. He will make that special dinner you are looking for. Guarantee! 
 									</p>
+									<span class="rate">Reserve</span>
 								</li>
 							</ul>
 						</div>
@@ -85,13 +94,13 @@
 						<a href="Chefs.jsp">Chefs</a>
 					</li>
 					<li>
-						<a href="foods.jsp">Extras</a>
+						<a href="gallery.jsp">gallery</a>
 					</li>
 					<li>
-						<a href="shopCart.jsp">Cart</a>
+						<a href="foods.jsp">Other Services</a>
 					</li>
 					<li>
-						<a href="registration.jsp">Registration</a>
+						<a href="news.jsp">News</a>
 					</li>
 					<li>
 						<a href="contact.jsp">Contact</a>

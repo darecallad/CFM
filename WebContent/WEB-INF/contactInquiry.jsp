@@ -43,7 +43,8 @@
 						<div id="contact" class="body">
 							<h1>Contact</h1>
 						    <h3>${param.name}</h3>
-						    <p>Thank you for contacting us. One of our customer service representatives will contact you.</p>	
+						    <p>Thank you for contacting us. One of our customer service representatives will contact you at:</p>
+						    <P>${param.email}</P>	
 						
 							
 						</div>

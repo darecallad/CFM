@@ -43,35 +43,21 @@
 						<div id="contact" class="body">
 							<h1>Contact</h1>
 							
-							<form action="contactController" method="post">
-								
-									
-										<tr>
-											<td>Name:</td>
+							<form action="contact" method="post">
 											<p> ${nameError}</p>
-											<td><input type="text" value="" ></td>
-										</tr>
-							
-										 <tr>
-											<td>Email:</td>
+											<input type="text" name="name" value="${param.name}" placeholder="Enter your name" >
+										     <br>
 											<p> ${emailError}</p>
-											<td ${emailError}><input type="text" value="${param.email }" ></td>
-										</tr> 
-										<tr>
-											<td>Subject:</td>
+											<input type="email" name="email" value="${param.email}" placeholder="Enter your email" >
+									        <br>
+										
 											<p>${subjectError}</p>
-											<td><input type="text" value=""></td>
-										</tr>
-										 <tr>
-										    
-											<td class="txtarea">Message:</td>
+											<input type="text" name="subject" value="${param.subject}" placeholder="Enter subject">
+										
 											 <p>${messageError}</p>
-											<td><textarea></textarea></td>
-										</tr> 
-										<tr>
-											<td></td>
+											<input type="text" name="message" value="${param.message}" placeholder="Enter your message">
+										
 											<td><input type="submit" value="Send" class="btn"></td>
-										</tr>
 									
 							</form>
 							

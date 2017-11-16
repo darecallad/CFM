@@ -25,7 +25,7 @@ public class contactController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// Read and Validate the parameters.
 		String name = request.getParameter("name");
-		String email = request.getParameter("e-mail");
+		String email = request.getParameter("email");
 		String subject = request.getParameter("subject");
 		String message = request.getParameter("message");
 		
@@ -50,7 +50,7 @@ public class contactController extends HttpServlet {
 		}
 		
 		if (!hasError) {
-			request.getRequestDispatcher("/WEB-INF/contact.jsp").forward(request, response);
+			request.getRequestDispatcher("/WEB-INF/contactInquiry.jsp").forward(request, response);
 		}
 		else {
 			doGet(request, response);

@@ -42,38 +42,10 @@
 					<div>
 						<div id="contact" class="body">
 							<h1>Contact</h1>
-							<form action="Index.jsp" method="post">
-								<table>
-									<tbody>
-										<tr>
-											<td>Name:</td>
-											<td><input type="text" value="" class="txtfield"></td>
-										</tr> <tr>
-											<td>Email:</td>
-											<td><input type="text" value="" class="txtfield"></td>
-										</tr> <tr>
-											<td>Subject:</td>
-											<td><input type="text" value="" class="txtfield"></td>
-										</tr> <tr>
-											<td class="txtarea">Message:</td>
-											<td><textarea></textarea></td>
-										</tr> <tr>
-											<td></td>
-											<td><input type="submit" value="" class="btn"></td>
-										</tr>
-									</tbody>
-								</table>
-							</form>
-							<h2>Cook For Me</h2>
-							<p>
-								<span>Address:</span> 1233 Figueroa St, Los Angeles, CA 12345
-							</p>
-							<p>
-								<span>Telephone Number:</span> 1-800-999-9999
-							</p>
-							<p>
-								<span>Fax Number:</span> 1-800-111-1111
-							</p>
+						    <h3>${param.name}</h3>
+						    <p>Thank you for contacting us. One of our customer service representatives will contact you.</p>	
+						
+							
 						</div>
 					</div>
 				</div>

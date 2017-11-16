@@ -1,12 +1,14 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Chef Profile</title>
+<title>Chefs View</title>
+</head>
+<body>
 <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -28,34 +30,15 @@
 					<div class="box">
 						<div>
 							<div class="body" style="text-align: center">
-								<H1>Chef Profile</H1>
-
-								<img src="images/chefPhoto/${chefid}.jpg">
-
-								<table border="1" cellpadding="2"
-									style="margin: 0 auto; width: 40%; text-align: left">
-									<tr>
-										<th>Name</th>
-										<th>Email</th>
-										<th>Description</th>
-										<th>Rate</th>
-
-									</tr>
-
-									<tr>
-
-										<td><strong>${chefname }</strong>><br></td>
-										<td><strong>${chefemail }</strong><br></td>
-										<td><strong>${chefdescription }</strong><br></td>
-										<td><strong>${chefrate }</strong><br></td>
-
-									</tr>
-								</table>
-
-								<a href="Order?type=${cheftype }">Next</a>
-
-
-
+                             <c:forEach items="${Chefs }" var="Chefs">
+                             	<div class="col-sm-4 text=center">
+                             		<div>
+                             			<a href="Chefs?id=${Chefs.id}">
+                             			<img  style="height: 100px;"  alt="${Chefs.name }" src="${Chefs.profImg }" class="img-responsive img-thumbnail">
+                             			</a>
+                             		</div>
+                             	</div>
+                             </c:forEach>
 							</div>
 						</div>
 					</div>
@@ -85,5 +68,6 @@
 		</div>
 		<p>© CFM. All Rights Reserved</p>
 	</div>
+
 </body>
 </html>

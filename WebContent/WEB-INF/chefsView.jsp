@@ -20,9 +20,9 @@
 						<li><a href="Index.jsp">Home</a></li>
 						<li><a href="about.jsp">About</a></li>
 						<li class="selected"><a href="Chefs.jsp">Chefs</a></li>
+						<li><a href="foods.jsp">Extras</a></li>
 						<li><a href="shopCart.jsp">Cart</a></li>
-						<li><a href="foods.jsp">Food</a></li>
-						<li><a href="news.html">News</a></li>
+						<li><a href="registration.jsp">Registration</a></li>
 						<li><a href="contact.jsp">Contact</a></li>
 					</ul>
 				</div>

@@ -38,14 +38,13 @@
 										<tr>
 										    <td><strong>${Chefs.name }</strong></td>
 											<td><a href="Chefprofile?id=${Chefs.id }"><img src="images/chefPhoto/${Chefs.id}.jpg" alt="Img" height="100" width="150"></td>
-											<td><strong>${Chefs.email }</strong><br></td>
-											<td><strong>${Chefs.description }</strong><br></td>
+											
 											<td><strong>${Chefs.rate }</strong><br></td>
 
 										</tr>
 									</c:forEach>
 								</table>
-
+									<a href=Chefs.jsp>Back</a>
 								<br>
 
 							</div>

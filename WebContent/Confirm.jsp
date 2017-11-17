@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p>count ${test }</p>
+<p></p>
 
 <table border="1" cellpadding = "2" width="50%">
 <tr> 
@@ -22,7 +22,7 @@
 
 <c:forEach items="${Food }" var="Food" varStatus="counter">
 	<tr >
-		<td><img src="image/OtherServices/${Food.id }.jpg"></td>
+		<td><img src="image/Services/${Food.id }.jpg"></td>
 		<td > <strong>${Food.name }</strong><br></td>
 			
 	</tr>
@@ -31,7 +31,8 @@
 
 
 </table>
-
+<p>Total Price: ${total}</p>
+<a href = "main">Confirm</a>
 
 </body>
 </html>

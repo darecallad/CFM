@@ -110,6 +110,7 @@ Connection c = null;
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		int chefrate = (int) request.getServletContext().getAttribute("chefrate");
 		String[] array = request.getParameterValues("choose");
 		int count = array.length;
 		
@@ -119,14 +120,28 @@ Connection c = null;
 		//request.setAttribute("test", count);
 		//request.getRequestDispatcher( "Confirm.jsp" ).forward( request, response );
 		
-		
+		double value =0;
 		for (int i = 0; i < count ; i++){
 			String name = array[i];
 			
 			Food_CFM Orders = new Food_CFM(name);
 			Order.add(Orders);
 		}
+		if (count == 1) {
+			value = 1.2;
+		}
+		else if(count ==2)
+		{
+			value = 1.5;
+		}
+		else if(count ==3)
+		{
+			value = 1.9;
+		}
+		double chefprice = chefrate * value;
+		
 		request.setAttribute("Food", Order);
+		request.setAttribute("total", chefprice);
 		request.getRequestDispatcher( "Confirm.jsp" ).forward( request, response );
 		
 	}

@@ -32,7 +32,7 @@
 						   <a href="registration.jsp">Registration</a>
 						</li>
 						<li>
-							<a href="contactController.java">Contact</a>
+							<a href="contact">Contact</a>
 						</li>
 						
 					</ul>

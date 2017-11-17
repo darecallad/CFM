@@ -49,7 +49,7 @@
 										<td><strong>${chefrate }</strong><br></td>
 									</tr>
 								</table>
-								<a href=searchChefs?foodType=Italian_style>Back</a>
+								<a href=Chefs.jsp>Back</a>
 								<a href="Order?type=${cheftype }">Add More Services</a>
 							</div>
 						</div>

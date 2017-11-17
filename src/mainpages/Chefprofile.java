@@ -90,7 +90,7 @@ Connection c = null;
 	            }
 	        }
 	
-		
+		request.getServletContext().setAttribute("chefrate", chefRate);
 		request.setAttribute("chefemail", chefEmail);
 		request.setAttribute("chefname", chefName);
 		request.setAttribute("chefid", chefID);

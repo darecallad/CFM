@@ -17,13 +17,13 @@
 						<li><a href="Index.jsp">Home</a></li>
 						<li><a href="about.jsp">About</a></li>
 						<li class="selected"><a href="Chefs.jsp">Chefs</a></li>
+						<li><a href="foods.jsp">Extras</a></li>
 						<li><a href="shopCart.jsp">Cart</a></li>
-						<li><a href="foods.jsp">Food</a></li>
-						<li><a href="news.html">News</a></li>
-						<li><a href="contact">Contact</a></li>
+						<li><a href="registration.jsp">Registration</a></li>
+						<li><a href="contact.jsp">Contact</a></li>
 					</ul>
 				</div>
-				
+
 				<div id="contents">
 					<div class="box">
 						<div>
@@ -41,7 +41,8 @@
 											<tr>
 												<td><input type="checkbox" name="choose"
 													value="${Food.name }"></td>
-												<td><img src="images/OtherServices/${Food.id }.jpg" alt="Img" height="100" width="150"></td>
+												<td><img src="images/OtherServices/${Food.id }.jpg"
+													alt="Img" height="100" width="150"></td>
 												<td><strong>${Food.name }</strong><br></td>
 											</tr>
 											<input type='hidden' name=counterValue
@@ -56,7 +57,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</div>
@@ -66,10 +67,10 @@
 				<li><a href="Index.jsp">Home</a></li>
 				<li><a href="about.jsp">About</a></li>
 				<li class="active"><a href="Chefs.jsp">Chefs</a></li>
+				<li><a href="foods.jsp">Extras</a></li>
 				<li><a href="shopCart.jsp">Cart</a></li>
-				<li><a href="foods.jsp">Food</a></li>
-				<li><a href="news.jsp">News</a></li>
-				<li><a href="contact">Contact</a></li>
+				<li><a href="registration.jsp">Registration</a></li>
+				<li><a href="contact.jsp">Contact</a></li>
 			</ul>
 			<div id="connect">
 				<a href="http://pinterest.com/" target="_blank" class="pinterest"></a>

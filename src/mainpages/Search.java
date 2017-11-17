@@ -130,15 +130,41 @@ public class Search extends HttpServlet {
 			}
 			System.out.println(distanceList.get(0));
 			String query;
-			for (int count = 0; count < distanceList.size(); count++) {
-				if (!locationSearch.isEmpty()) {
-					query =  "select * from chefs2 where (name like '%"+ nameSearch +"%') and (rate <= "+ priceSearchInt +") and (type like '%" + styleSearch +"%') and (DistanceFromZip >= " + distanceList.get(count) + ") and (Zip = " + zipList.get(count) + ")";
-				}
-				else {
-					query  = "select * from chefs2 where (name like '%"+ nameSearch +"%') and (rate <= "+ priceSearchInt +") and (type like '%" + styleSearch +"%')";
-				}
 
-				System.out.println("query " + query);
+			if (!locationSearch.isEmpty()) {
+				for (int count = 0; count < distanceList.size(); count++) {
+					query =  "select * from chefs2 where (name like '%"+ nameSearch +"%') and (rate <= "+ priceSearchInt +") and (type like '%" + styleSearch +"%') and (DistanceFromZip >= " + distanceList.get(count) + ") and (Zip = " + zipList.get(count) + ")";
+					st = conn.createStatement();
+					rs = st.executeQuery(query);
+
+					while (rs.next() ) {
+						ArrayList al = new ArrayList();
+
+
+						al.add(rs.getString(1));
+						al.add(rs.getString(2));
+						al.add(rs.getString(3));
+						al.add(rs.getString(4));
+						al.add(rs.getString(5));
+						al.add(rs.getString(6));
+
+
+
+
+
+
+						if (pid_list.contains(al)) {
+
+						}
+						else {
+							pid_list.add(al);
+						}
+
+					}
+				}
+			}
+			else {
+				query  = "select * from chefs2 where (name like '%"+ nameSearch +"%') and (rate <= "+ priceSearchInt +") and (type like '%" + styleSearch +"%')";
 				st = conn.createStatement();
 				rs = st.executeQuery(query);
 
@@ -157,16 +183,15 @@ public class Search extends HttpServlet {
 
 
 
-					System.out.println("al :: " + al);
-					if (pid_list.contains(al)) {
 
-					}
-					else {
-						pid_list.add(al);
-					}
+					
 
 				}
 			}
+
+
+
+
 
 
 

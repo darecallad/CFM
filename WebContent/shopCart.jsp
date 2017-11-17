@@ -19,7 +19,7 @@
 						<li><a href="foods.jsp">Extras</a></li>
 						<li class="selected"><a href="shopCart.jsp">Cart</a></li>
 						<li><a href="registration.jsp">Registration</a></li>
-						<li><a href="contact.jsp">Contact</a></li>
+						<li><a href="contact">Contact</a></li>
 					</ul>
 				</div>
 				<div id="contents">
@@ -71,7 +71,7 @@
 				<li><a href="foods.jsp">Extras</a></li>
 				<li class="active"><a href="shopCart.jsp">Cart</a></li>
 				<li><a href="regitration.jsp">Registration</a></li>
-				<li><a href="contact.jsp">Contact</a></li>
+				<li><a href="contact">Contact</a></li>
 			</ul>
 			<div id="connect">
 				<a href="http://pinterest.com/" target="_blank" class="pinterest"></a>

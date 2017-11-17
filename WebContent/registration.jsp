@@ -27,7 +27,7 @@ function swapConfig(x) {
 						<li><a href="foods.html">Extras</a></li>
 						<li><a href="shopCart.jsp">Cart</a></li>
 						<li class="selected"><a href="registration.html">Registration</a></li>
-						<li><a href="contact.jsp">Contact</a></li>
+						<li><a href="contact">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -84,7 +84,7 @@ function swapConfig(x) {
 					<li><a href="food.jsp">Extras</a></li>
 					<li><a href="shopCart.jsp">Cart</a></li>
 					<li class="active"><a href="registration.jsp">Registration</a></li>
-					<li><a href="contact.jsp">Contact</a></li>
+					<li><a href="contact">Contact</a></li>
 				</ul>
 				<div id="connect">
 					<a href="http://pinterest.com/" target="_blank" class="pinterest"></a>

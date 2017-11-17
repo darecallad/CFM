@@ -118,7 +118,7 @@
 						<a href="registration.jsp">Registration</a>
 					</li>
 					<li>
-						<a href="contact.jsp">Contact</a>
+						<a href="contact">Contact</a>
 					</li>
 				</ul>
 				<div id="connect">

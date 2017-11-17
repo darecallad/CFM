@@ -39,7 +39,7 @@
 
 									<c:forEach items="${Food }" var="Food" varStatus="counter">
 										<tr>
-											<td><img src="image/Services/${Food.id }.jpg"></td>
+											<td><img src="image/OtherServices/${Food.id }.jpg"></td>
 											<td><strong>${Food.name }</strong><br></td>
 
 										</tr>

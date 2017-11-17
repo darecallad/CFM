@@ -43,7 +43,7 @@
 													value="${Food.name }"></td>
 												<td><img src="images/OtherServices/${Food.id }.jpg"
 													alt="Img" height="100" width="150"></td>
-												<td><strong>${Food.name }</strong><br></td>
+												<td><strong>${Food.name}</strong><br></td>
 											</tr>
 											<input type='hidden' name=counterValue
 												value=${counter.index }>

@@ -1,5 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -30,21 +31,27 @@
 								<br>
 								<form id="shopCartForm" action="payment.jsp" method="POST">
 
+									<table border="1" cellpadding="2"
+									style="margin: 0 auto; width: 40%; text-align: left">
+									<tr>
 
-									<TABLE>
-
-										<c:set var="totalCost" value="${0}" />
-										<c:forEach items="${selectedServices} var="services">
+										<th>Image</th>
+										<th>Name</th>
 
 
-											<tr>
-												<td><c:out value="${service.name}" /></td>
-												<td><c:out value="${service.cost}" /></td>
-											</tr>
-											<c:set var="totalCost" value="${totalCost + service.cost}" />
+									</tr>
 
-										</c:forEach>
-									</TABLE>
+									<c:forEach items="${Food }" var="Food" varStatus="counter">
+										<tr>
+											<td><img src="image/OtherServices/${Food.id}.jpg"></td>
+											<td><strong>${Food.name }</strong><br></td>
+
+										</tr>
+
+									</c:forEach>
+
+
+								</table>
 
 									<p>
 										<b>Total Cost: ${totalCost}</b>
@@ -82,7 +89,7 @@
 					class="googleplus"></a>
 			</div>
 		</div>
-		<p>© CFM. All Rights Reserved</p>
+		<p>Â© CFM. All Rights Reserved</p>
 	</div>
 </body>
 </html>

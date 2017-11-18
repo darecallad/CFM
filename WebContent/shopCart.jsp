@@ -32,34 +32,36 @@
 								<form id="shopCartForm" action="payment.jsp" method="POST">
 
 									<table border="1" cellpadding="2"
-									style="margin: 0 auto; width: 40%; text-align: left">
-									<tr>
-
-										<th>Image</th>
-										<th>Name</th>
-
-
-									</tr>
-
-									<c:forEach items="${Food }" var="Food" varStatus="counter">
+										style="margin: 0 auto; width: 40%; text-align: left">
 										<tr>
-											<td><img src="image/OtherServices/${Food.id}.jpg"></td>
-											<td><strong>${Food.name }</strong><br></td>
+
+											<th>Image</th>
+											<th>Name</th>
+
 
 										</tr>
 
-									</c:forEach>
+										<c:forEach items="${Food }" var="Food" varStatus="counter">
+											<tr>
+												<td><img src="image/OtherServices/${Food.id}.jpg"></td>
+												<td><strong>${Food.name }</strong><br></td>
+
+											</tr>
+
+										</c:forEach>
 
 
-								</table>
+									</table>
 
 									<p>
 										<b>Total Cost: ${totalCost}</b>
 									</p>
 
 
-
+									<button type="submit" formaction="Chefs.jsp">Change
+										Order</button>
 									<button id="checkout-btn" type="submit">Checkout</button>
+
 
 								</form>
 							</div>

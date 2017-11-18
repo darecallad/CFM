@@ -33,7 +33,7 @@
 								<h1>Payment Confirmation</h1>
 								<br>
 								<form id="payConfirm" action="Index.jsp" method="POST"
-									style="margin: 0 auto; width: 40%; text-align: left">
+									style="margin: 0 auto; width: 40%; text-align: left" onSubmit="alert('Thank you for your feedback.')">
 									<ul>
 
 										<p>
@@ -64,17 +64,15 @@
 										<c:forEach items="${Food }" var="Food" varStatus="counter">
 											<tr>
 
-													<%--  <td><img src="images/OtherServices/${foodid }.jpg"
-													alt="Img" height="100" width="150"></td> --%>
-													<td style="margin: 0 auto; width: 40%; text-align: center"><strong>${Food.name }</strong><br></td>
-												
+											<%--	<td><img src="images/OtherServices/${Food.id }.jpg"
+													alt="Img" height="100" width="150"></td>  --%>
+												<td style="margin: 0 auto; width: 40%; text-align: center"><strong>${foodname }</strong></td>
 											</tr>
-											<input type='hidden' name=counterValue
-												value=${counter.index }>
+							
 										</c:forEach>
 
 									</table>
-
+<br>
 									<div class=tCost
 										style="margin: 0 auto; width: 50%; text-align: center">
 										<b>Total Cost: ${totalCost}</b>

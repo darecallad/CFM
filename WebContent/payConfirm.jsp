@@ -52,20 +52,26 @@
 											<%=request.getParameter("ccExpYear")%>
 										</p>
 									</ul>
-									<TABLE>
 
-										<c:set var="totalCost" value="${0}" />
-										<c:forEach items="${selectedServices} var="services">
+									<table border="1" cellpadding="2"
+										style="margin: 0 auto; width: 40%; text-align: left">
+										<tr>
 
-
+											<th>Image</th>
+											<th>Name</th>
+										</tr>
+										<c:forEach items="${Food }" var="Food" varStatus="counter">
 											<tr>
-												<td><c:out value="${service.name}" /></td>
-												<td><c:out value="${service.cost}" /></td>
-											</tr>
-											<c:set var="totalCost" value="${totalCost + service.cost}" />
 
+												<td><img src="images/OtherServices/${foodid }.jpg"
+													alt="Img" height="100" width="150"></td>
+												<td><strong>${foodname }</strong><br></td>
+											</tr>
+											<input type='hidden' name=counterValue
+												value=${counter.index }>
 										</c:forEach>
-									</TABLE>
+
+									</table>
 
 									<div class=tCost
 										style="margin: 0 auto; width: 50%; text-align: center">

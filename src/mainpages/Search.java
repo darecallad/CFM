@@ -1,27 +1,24 @@
 package mainpages;
 
 import java.io.IOException;
-import java.math.BigDecimal;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.*;
 import java.util.ArrayList;
 import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+
 
 /**
  * Servlet implementation class Search
  */
 @WebServlet("/Search")
 public class Search extends HttpServlet {
+
+	
+	private static final long serialVersionUID = 1L;
 
 	public static double haversineFormula(
 			double lat1, double lng1, double lat2, double lng2) {
@@ -46,10 +43,10 @@ public class Search extends HttpServlet {
 		}
 	}
 
+	@SuppressWarnings({ "resource", "deprecation" })
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		response.setContentType("text/html");
-		PrintWriter out = response.getWriter();
 		Connection conn = null;
 
 
@@ -73,8 +70,6 @@ public class Search extends HttpServlet {
 			int locationSearchInt = -1;
 			double latOfUser = 200;
 			double lngOfUser = 200;
-			double latOfChef = 200;
-			double lngOfChef = 200;
 			ResultSet rs;
 			ResultSet latLng;
 
@@ -102,21 +97,20 @@ public class Search extends HttpServlet {
 				System.out.println(zipQuery);
 				st = conn.createStatement();
 				latLng = st.executeQuery(zipQuery);
-				ArrayList latLngList = new ArrayList();
 				while (latLng.next()) {
 					latOfUser = latLng.getDouble(1);
 					lngOfUser = latLng.getDouble(2);
 				}
 			}
-			ArrayList pid_list = new ArrayList();
+			ArrayList<ArrayList<String>> pid_list = new ArrayList<ArrayList<String>>();
 			System.out.println(latOfUser);
 			System.out.println(lngOfUser);
 			String chefQuery = "select c.Zip, Latitude, Longitude from ZipLatLng as z left join chefs2 as c on z.Zip = c.Zip where c.Zip = z.Zip order by c.id";
 			System.out.println("query " + chefQuery);
 			st = conn.createStatement();
 			rs = st.executeQuery(chefQuery);
-			ArrayList distanceList = new ArrayList();
-			ArrayList zipList = new ArrayList();
+			ArrayList<Double> distanceList = new ArrayList<Double>();
+			ArrayList<Integer> zipList = new ArrayList<Integer>();
 			while (rs.next()) {
 
 				int zip = rs.getInt("Zip");
@@ -138,7 +132,7 @@ public class Search extends HttpServlet {
 					rs = st.executeQuery(query);
 
 					while (rs.next() ) {
-						ArrayList al = new ArrayList();
+						ArrayList<String> al = new ArrayList<String>();
 
 
 						al.add(rs.getString(1));
@@ -169,7 +163,7 @@ public class Search extends HttpServlet {
 				rs = st.executeQuery(query);
 
 				while (rs.next() ) {
-					ArrayList al = new ArrayList();
+					ArrayList<String> al = new ArrayList<String>();
 
 
 					al.add(rs.getString(1));
@@ -178,15 +172,17 @@ public class Search extends HttpServlet {
 					al.add(rs.getString(4));
 					al.add(rs.getString(5));
 					al.add(rs.getString(6));
-
-
+					
 
 
 
 
 					
 
+					
+
 				}
+				
 			}
 
 
@@ -196,7 +192,7 @@ public class Search extends HttpServlet {
 
 
 
-
+			
 			request.setAttribute("piList", pid_list);
 			RequestDispatcher view = request.getRequestDispatcher("/ChefSearch.jsp");
 			view.forward(request, response);
@@ -207,12 +203,9 @@ public class Search extends HttpServlet {
 		}
 	}
 
-	/** 
-	 * Returns a short description of the servlet.
-	 * @return a String containing servlet description
-	 */
+	
 	@Override
 	public String getServletInfo() {
 		return "Short description";
-	}// </editor-fold>
+	}
 }

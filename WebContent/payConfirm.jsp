@@ -33,7 +33,7 @@
 								<h1>Payment Confirmation</h1>
 								<br>
 								<form id="payConfirm" action="Index.jsp" method="POST"
-									style="margin: 0 auto; width: 40%; text-align: left" onSubmit="alert('Thank you for your feedback.')">
+									style="margin: 0 auto; width: 40%; text-align: left" onSubmit="alert('Your has been submitted.')">
 									<ul>
 
 										<p>

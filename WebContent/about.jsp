@@ -23,13 +23,13 @@
 							<a href="Chefs.jsp">Chefs</a>
 						</li>
 						<li>
-							<a href="foods.html">Extras</a>
+							<a href="foods.jsp">Extras</a>
 						</li>
 						<li>
 							<a href="shopCart.jsp">Cart</a>
 						</li>
 						<li>
-							<a href="registration.html">Registration</a>
+							<a href="registration.jsp">Registration</a>
 						</li>
 						<li>
 							<a href="contact.jsp">Contact</a>

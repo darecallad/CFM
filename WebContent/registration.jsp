@@ -24,9 +24,9 @@ function swapConfig(x) {
 						<li><a href="Index.jsp">Home</a></li>
 						<li ><a href="about.jsp">About</a></li>
 						<li><a href="Chefs.jsp">Chefs</a></li>
-						<li><a href="foods.html">Extras</a></li>
+						<li><a href="foods.jsp">Extras</a></li>
 						<li><a href="shopCart.jsp">Cart</a></li>
-						<li class="selected"><a href="registration.html">Registration</a></li>
+						<li class="selected"><a href="registration.jsp">Registration</a></li>
 						<li><a href="contact">Contact</a></li>
 					</ul>
 				</div>

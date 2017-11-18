@@ -32,7 +32,7 @@
 							<a href="registration.jsp">Registration</a>
 						</li>
 						<li class="selected">
-							<a href="contact.jsp">Contact</a>
+							<a href="contact">Contact</a>
 						</li>
 					</ul>
 				</div>

@@ -45,7 +45,7 @@
 									<div>
 
 										<label>Credit Card Number: </label> <input id="ccNumber"
-											type="text" maxlength="20" value="" name="ccNumber" />
+											type="text" maxlength="20" onkeypress='return event.charCode >= 48 && event.charCode <= 57' value="" name="ccNumber" />
 
 									</div>
 									<br>

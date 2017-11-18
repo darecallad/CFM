@@ -35,8 +35,8 @@
 										style="margin: 0 auto; width: 40%; text-align: left">
 										<tr>
 
-											<th>Image</th>
-											<th>Name</th>
+											<th>Service Image</th>
+											<th>Service Name</th>
 
 
 										</tr>
@@ -49,7 +49,6 @@
 											</tr>
 
 										</c:forEach>
-
 
 									</table>
 

@@ -129,7 +129,6 @@ public class Order extends HttpServlet {
 
 		HttpSession session = request.getSession();
 		session.setAttribute("totalCost", chefprice);
-
 		session.setAttribute("Food", Order);
 		session.setAttribute("total", chefprice);
 		request.getRequestDispatcher("Confirm.jsp").forward(request, response);

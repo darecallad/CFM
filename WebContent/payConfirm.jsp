@@ -57,15 +57,17 @@
 										style="margin: 0 auto; width: 40%; text-align: left">
 										<tr>
 
-											<th>Image</th>
-											<th>Name</th>
+											<%-- <th>Image</th> --%>
+											<th>Service Name</th>
+											
 										</tr>
 										<c:forEach items="${Food }" var="Food" varStatus="counter">
 											<tr>
 
-												<td><img src="images/OtherServices/${foodid }.jpg"
-													alt="Img" height="100" width="150"></td>
-												<td><strong>${foodname }</strong><br></td>
+													<%--  <td><img src="images/OtherServices/${foodid }.jpg"
+													alt="Img" height="100" width="150"></td> --%>
+													<td style="margin: 0 auto; width: 40%; text-align: center"><strong>${Food.name }</strong><br></td>
+												
 											</tr>
 											<input type='hidden' name=counterValue
 												value=${counter.index }>

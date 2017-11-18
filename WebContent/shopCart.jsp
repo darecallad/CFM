@@ -35,7 +35,7 @@
 										style="margin: 0 auto; width: 40%; text-align: left">
 										<tr>
 
-											<th>Service Image</th>
+											<%-- <th>Image</th> --%>
 											<th>Service Name</th>
 
 
@@ -43,8 +43,8 @@
 
 										<c:forEach items="${Food }" var="Food" varStatus="counter">
 											<tr>
-												<td><img src="image/OtherServices/${Food.id}.jpg"></td>
-												<td><strong>${Food.name }</strong><br></td>
+												<%-- <td><img src="image/OtherServices/${Food.id}.jpg"></td> --%>
+												<td style="margin: 0 auto; width: 40%; text-align: center"><strong>${Food.name }</strong><br></td>
 
 											</tr>
 
@@ -53,7 +53,7 @@
 									</table>
 
 									<p>
-										<b>Total Cost: ${totalCost}</b>
+										<b>Total Cost: $${totalCost}</b>
 									</p>
 
 

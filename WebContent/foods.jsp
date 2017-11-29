@@ -4,16 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Foods CFM</title>
+<title>Other Services CFM</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
 	<div id="background">
 		<div id="page">
 			<div id="header">
-				<div id="logo">
-					<a href="Index.jsp"><img src="images/WineAndCheese.jpg" alt="LOGO" height="112" width="118"></a>
-				</div>
 				<div id="navigation">
 					<ul>
 						<li>
@@ -25,14 +22,14 @@
 						<li>
 							<a href="Chefs.jsp">Chefs</a>
 						</li>
-						<li>
-							<a href="file.jsp">Link</a>
-						</li>
 						<li class="selected">
-							<a href="foods.jsp">Food</a>
+							<a href="foods.jsp">Extras</a>
+						</li>
+						<li >
+							<a href="shopCart.jsp">Cart</a>
 						</li>
 						<li>
-							<a href="news.jsp">News</a>
+							<a href="registration.jsp">Registration</a>
 						</li>
 						<li>
 							<a href="contact.jsp">Contact</a>
@@ -44,32 +41,32 @@
 				<div class="box">
 					<div>
 						<div class="body">
-							<h1>Food</h1>
+							<h1>Other Services</h1>
 							<ul id="foods">
 								<li>
-									<h2><a href="foods.jsp">SeaFood </a></h2>
+									<h2><a href="foods.jsp">DinnerWare </a></h2>
 									<div class="infos">
-										<a href="foods.jsp"><img src="images/seafoods.jpg" alt="Img" height="169" width="780"><span class="cover"></span></a>
+										<a href="foods.jsp"><img src="images/dinnerware1.jpg" alt="Img" height="169" width="400"><span class="cover"></span></a>
 										<p>
-											<span>Seafood</span> I'm a product overview. Here you can write more information about your product. Buyers like to know ...
+											<span>DinnerWare</span> When reserving you Chef you can add DinnerWare service. We have the best and finest selection.
 										</p>
 									</div>
 								</li>
 								<li>
-									<h2><a href="foods.jsp">Sumptuous Desserts</a></h2>
+									<h2><a href="foods.jsp">SilverWare</a></h2>
 									<div class="infos">
-										<a href="foods.jsp"><img src="images/desserts.jpg" alt="Img" height="169" width="780"><span class="cover"></span></a>
+										<a href="foods.jsp"><img src="images/silverset1.jpg" alt="Img" height="169" width="400"><span class="cover"></span></a>
 										<p>
-											<span>Choco Ice Cream Sandwich</span> I'm a product overview. Here you can write more information about your product. Buyers like to know ...
+											<span>SilverWare</span>All our silveware sets are made out of real silevr to add a classy touch to your table.
 										</p>
 									</div>
 								</li>
 								<li>
-									<h2><a href="foods.jsp">Group Parties</a></h2>
+									<h2><a href="foods.jsp">Cleaning Services</a></h2>
 									<div class="infos">
-										<a href="foods.jsp"><img src="images/buffet.jpg" alt="Img" height="169" width="780"><span class="cover"></span></a>
+										<a href="foods.jsp"><img src="images/cleaning1.jpg" alt="Img" height="169" width="400"><span class="cover"></span></a>
 										<p>
-											<span>Mixed Buffet</span> I'm a product overview. Here you can write more information about your product. Buyers like to know ...
+											<span>Cleaning Services</span>We will take care of the cleaning after your event so all you have to do is just enjoy.
 										</p>
 									</div>
 								</li>
@@ -91,14 +88,15 @@
 					<li>
 						<a href="Chefs.jsp">Chefs</a>
 					</li>
-					<li>
-						<a href="file.jsp">Link</a>
-					</li>
 					<li class="active">
-						<a href="foods.jsp">Food</a>
+
+						<a href="foods.jsp">Extras</a>
+					</li>
+					<li >
+						<a href="shopCart.jsp">Cart</a>
 					</li>
 					<li>
-						<a href="news.jsp">News</a>
+						<a href="registration.jsp">Registration</a>
 					</li>
 					<li>
 						<a href="contact.jsp">Contact</a>

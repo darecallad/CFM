@@ -11,9 +11,6 @@
 	<div id="background">
 		<div id="page">
 			<div id="header">
-				<div id="logo">
-					<a href="index.html"><img src="images/WineAndCheese.jpg" alt="LOGO" height="112" width="118"></a>
-				</div>
 				<div id="navigation">
 					<ul>
 						<li>
@@ -26,13 +23,13 @@
 							<a href="Chefs.jsp">Chefs</a>
 						</li>
 						<li>
-							<a href="dives.html">Dive Site</a>
+							<a href="foods.jsp">Extras</a>
 						</li>
 						<li>
-							<a href="foods.jsp">Food</a>
+							<a href="shopCart.jsp">Cart</a>
 						</li>
 						<li>
-							<a href="news.html">News</a>
+							<a href="registration.jsp">Registration</a>
 						</li>
 						<li>
 							<a href="contact.jsp">Contact</a>
@@ -45,7 +42,7 @@
 					<div>
 						<div class="body">
 							<h1>About</h1>
-							<h2>We can make your date magical!</h2>
+							<h2>We will create the most Amazing event for you!</h2>
 							<p>
 								<img src="images/Fancy-Dinner.jpg"  >
 							</p>
@@ -56,11 +53,14 @@
 							<div class="ads">
 								<h2>Our Chefs</h2>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a arcu ipsum.
+									Our team is composed of the most qualify and recognize Chefs. They will work with you to create the finest and elegant 
+									menu of your choice. They will offer a full menu, entre, main plate, dessert and can also do Wine pairing. We have a variety
+									of Chefs that specialize in different types of food. All of them will deliver the best food you can tthink of for your event.
+									Reserve your Chef today and we will do the rest.
 								</p>
 								<h2>Other Services</h2>
 								<p>
-									Phasellus porta ultrices lorem vel luctus.Cras sodales nulla vitae eros fermentum consequat. Aenean at purus odio.
+									
 								</p>
 							</div>
 							<h2>Be Part of Our Team/ Job Opportunities</h2>
@@ -89,13 +89,14 @@
 						<a href="Chefs.jsp">Chefs</a>
 					</li>
 					<li>
-						<a href="file.jsp">Link Site</a>
+
+						<a href="food.jsp">Extras</a>
 					</li>
 					<li>
-						<a href="foods.jsp">Food</a>
+						<a href="shopCart.jsp">Cart</a>
 					</li>
 					<li>
-						<a href="news.jsp">News</a>
+						<a href="news.jsp">Registration</a>
 					</li>
 					<li>
 						<a href="contact.jsp">Contact</a>

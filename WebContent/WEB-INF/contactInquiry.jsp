@@ -11,9 +11,6 @@
 	<div id="background">
 		<div id="page">
 			<div id="header">
-				<div id="logo">
-					<a href="Index.jsp"><img src="images/WineAndCheese.jpg" alt="LOGO" height="112" width="118"></a>
-				</div>
 				<div id="navigation">
 					<ul>
 						<li>
@@ -26,13 +23,13 @@
 							<a href="Chefs.jsp">Chefs</a>
 						</li>
 						<li>
-							<a href="file.jsp">Link</a>
+							<a href="foods.jsp">Extras</a>
 						</li>
 						<li>
-							<a href="foods.jsp">Food</a>
+							<a href="shopCart.jsp">Cart</a>
 						</li>
 						<li>
-							<a href="news.jsp">News</a>
+							<a href="registration.jsp">Registration</a>
 						</li>
 						<li class="selected">
 							<a href="contact.jsp">Contact</a>
@@ -45,38 +42,11 @@
 					<div>
 						<div id="contact" class="body">
 							<h1>Contact</h1>
-							<form action="Index.jsp" method="post">
-								<table>
-									<tbody>
-										<tr>
-											<td>Name:</td>
-											<td><input type="text" value="" class="txtfield"></td>
-										</tr> <tr>
-											<td>Email:</td>
-											<td><input type="text" value="" class="txtfield"></td>
-										</tr> <tr>
-											<td>Subject:</td>
-											<td><input type="text" value="" class="txtfield"></td>
-										</tr> <tr>
-											<td class="txtarea">Message:</td>
-											<td><textarea></textarea></td>
-										</tr> <tr>
-											<td></td>
-											<td><input type="submit" value="" class="btn"></td>
-										</tr>
-									</tbody>
-								</table>
-							</form>
-							<h2>Cook For Me</h2>
-							<p>
-								<span>Address:</span> 123 Lorem Ipsum Cove, Sed Ut City, LI 12345
-							</p>
-							<p>
-								<span>Telephone Number:</span> 1-800-999-9999
-							</p>
-							<p>
-								<span>Fax Number:</span> 1-800-111-1111
-							</p>
+						    <h3>${param.name}</h3>
+						    <p>Thank you for contacting us. One of our customer service representatives will contact you at:</p>
+						    <P>${param.email}</P>	
+						
+							
 						</div>
 					</div>
 				</div>
@@ -95,13 +65,13 @@
 						<a href="Chefs.jsp">Chefs</a>
 					</li>
 					<li>
-						<a href="file.jsp">Link</a>
+						<a href="foods.jsp">Extras</a>
 					</li>
 					<li>
-						<a href="foods.jsp">Food</a>
+						<a href="shopCart.jsp">Cart</a>
 					</li>
 					<li>
-						<a href="news.jsp">News</a>
+						<a href="registration.jsp">Registration</a>
 					</li>
 					<li class="active">
 						<a href="contact.jsp">Contact</a>

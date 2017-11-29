@@ -34,17 +34,20 @@ public class registrationForm extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		// customer
-		String cfirstname = request.getParameter("cfirstname");
-		String clastname = request.getParameter("clastname");
+		String cname = request.getParameter("cname");
 		String cemail = request.getParameter("cemail");
 		String ccardnumber = request.getParameter("ccardnumber");
 		String cphonenumber = request.getParameter("cphonenumber");
 		// chefs
-		String ffirstname = request.getParameter("ffirstname");
-		String flastname = request.getParameter("flastname");
+		String fname = request.getParameter("fname");
 		String femail = request.getParameter("femail");
 		String fcardnumber = request.getParameter("fcardnumber");
 		String fphonenumber = request.getParameter("fphonenumber");
+		String ftype = request.getParameter("ftype");
+		String frate = request.getParameter("frate");
+		String fdescription = request.getParameter("fdescription");
+		String fzip = request.getParameter("fzip");
+		String fdistance = request.getParameter("fdistance");
 		
 		String choose = request.getParameter("urlOptions");
 		
@@ -65,17 +68,17 @@ public class registrationForm extends HttpServlet {
                 password );
             Statement stmt = c.createStatement();
             
-            // string cannot use "=="
+            
             if (choose.equals("user")){
             // customer 
-            stmt.executeUpdate("insert into customeregi (firstname, lastname, email, cardnumber, phonenumber) "
-            		+ "value ('"+cfirstname+"', '"+clastname+"', '"+cemail+"' , '"+ccardnumber+"' , '"+cphonenumber+"');");          	   
+            stmt.executeUpdate("insert into customeregi (name, email, phonenumber, cardnumber) "
+            		+ "value ('"+cname+"', '"+cemail+"' , '"+cphonenumber+"' , '"+ccardnumber+"');");          	   
             }
             else if (choose.equals("chef")){
             
             // chefs
-           stmt.executeUpdate("insert into chefregi (firstname, lastname, email, cardnumber, phonenumber) "
-            		+ "value ('"+ffirstname+"', '"+flastname+"', '"+femail+"' , '"+fcardnumber+"' , '"+fphonenumber+"');");  
+           stmt.executeUpdate("insert into chefregi (name, type, email, description, Zip, DistanceFromZip, rate) "
+            		+ "value ('"+fname+"', '"+ftype+"' , '" +femail+"', '"+fdescription + "', '"+ frate +"', '" + fzip +"', '" +fdistance+"');");  
             }
             
          //   ResultSet rs = stmt.executeQuery( "select * from chefs where id = '"+ chefID +"';");

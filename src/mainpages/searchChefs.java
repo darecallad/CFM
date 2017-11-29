@@ -14,6 +14,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 
 
@@ -96,13 +97,14 @@ public class searchChefs extends HttpServlet {
 	            }
 	        }
 	
-	
-		request.setAttribute("chefemail", chefEmail);
-		request.setAttribute("chefname", chefName);
-		request.setAttribute("chefid", chefID);
-		request.setAttribute("chefdescription", chefDescription);
-		request.setAttribute("chefrate", chefRate);
-		request.setAttribute("Chefs", Chefs);
+		HttpSession session = request.getSession();
+
+		session.setAttribute("chefemail", chefEmail);
+		session.setAttribute("chefname", chefName);
+		session.setAttribute("chefid", chefID);
+		session.setAttribute("chefdescription", chefDescription);
+		session.setAttribute("chefrate", chefRate);
+		session.setAttribute("Chefs", Chefs);
 		request.getRequestDispatcher( "chefDisplay.jsp" ).forward( request, response );
 
 	

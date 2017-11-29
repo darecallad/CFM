@@ -19,18 +19,15 @@ function swapConfig(x) {
 	<div id="background">
 		<div id="page">
 			<div id="header">
-				<div id="logo">
-					<a href="index.html"><img src="images/WineAndCheese.jpg" alt="LOGO" height="112" width="118"></a>
-				</div>
 				<div id="navigation">
 					<ul>
 						<li><a href="Index.jsp">Home</a></li>
-						<li class="selected"><a href="about.jsp">About</a></li>
+						<li ><a href="about.jsp">About</a></li>
 						<li><a href="Chefs.jsp">Chefs</a></li>
-						<li><a href="dives.html">Dive Site</a></li>
-						<li><a href="foods.jsp">Food</a></li>
-						<li><a href="news.html">News</a></li>
-						<li><a href="contact.jsp">Contact</a></li>
+						<li><a href="foods.jsp">Extras</a></li>
+						<li><a href="shopCart.jsp">Cart</a></li>
+						<li class="selected"><a href="registration.jsp">Registration</a></li>
+						<li><a href="contact">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -47,33 +44,38 @@ function swapConfig(x) {
 								<input type="radio" onchange="swapConfig(this)" name="urlOptions" value ="chef" id="chef" />
 									<div id="userRegistrationDetails"> 
 										<p>
-											First name:<br>
- 											<input type="text" name="cfirstname" value="First Name" onclick="this.value=''" /><br> <br>
- 											Last name:<br>
- 											<input type="text" name="clastname" value="Last Name" onclick="this.value=''" /><br> <br>
+											
+ 											Name:<br>
+ 											<input type="text" name="cname" value ="First Last" onclick="this.value=''" /><br> 
  											Email: <br>
- 											<input type="text" name="cemail" value="Email Address" onclick="this.value=''" /><br> <br>
- 											Credit/Debit Card Number: <br>
-											<input type="text" name="ccardnumber" value="Card Number" onclick="this.value=''" /><br> <br>
+ 											<input type="text" name="cemail" value="Email Address" onclick="this.value=''" /><br>
 											Phone Number: <br>
 											<input type="text" name="cphonenumber" value="Phone Number" onclick="this.value=''" /><br> <br>
 											
-											<input type="submit" value="register" />
+											
+											<input type="submit" value="Register" />
     									</p>
   									</div>
   									<div id="chefRegistrationDetails" style="display:none">
     									<p>
-      										First name:<br>
- 											<input type="text" name="ffirstname" value="First Name" onclick="this.value=''" /><br> <br>
- 											Last name:<br>
- 											<input type="text" name="flastname" value="Last Name" onclick="this.value=''" /><br> <br>
+      										
+ 											Name:<br>
+ 											<input type="text" name="fname" value ="First Last" onclick="this.value=''" /><br> <br>
  											Email: <br>
  											<input type="text" name="femail" value="Email Address" onclick="this.value=''" /><br> <br>
- 											Credit/Debit Card Number: <br>
-											<input type="text" name="fcardnumber" value="Card Number" onclick="this.value=''" /><br> <br>
-											Phone Number: <br>
-											<input type="text" name="fphonenumber" value="Phone Number" onclick="this.value=''" /><br> <br>
-											<input type="submit" value="register" />
+											Cellphone Number: <br>
+											<input type="text" name="fphonenumber" value="Cellphone Number" onclick="this.value=''" /><br> <br>
+											Type of Cooking: <br>
+											<input type="text" name="ftype" value="Type of Cooking" onclick="this.value=''" /><br> <br>
+											Description: <br>
+											<textarea rows="4" cols="50" name="fdescription" form="usrform">Enter description here...</textarea> <br>
+											Price per person: <br>
+											<input type="text" name="frate" value="Price" onclick="this.value=''" /><br> <br>
+											Enter Your Zip Code: <br>
+											<input type ="text" name =fzip" value = "Zip Code" onclock = "" /> <br>
+											Serving Distance in miles: <br>
+											<input type ="text" name =fdistance" value = "Distance" onclock = "" /> <br>
+											<input type="submit" value="Register" />
     									</p>
     								</div>  
 							</form>		
@@ -86,12 +88,12 @@ function swapConfig(x) {
 			<div>
 				<ul class="navigation">
 					<li><a href="Index.jsp">Home</a></li>
-					<li class="active"><a href="about.jsp">About</a></li>
+					<li ><a href="about.jsp">About</a></li>
 					<li><a href="Chefs.jsp">Chefs</a></li>
-					<li><a href="file.jsp">Link Site</a></li>
-					<li><a href="foods.jsp">Food</a></li>
-					<li><a href="news.jsp">News</a></li>
-					<li><a href="contact.jsp">Contact</a></li>
+					<li><a href="food.jsp">Extras</a></li>
+					<li><a href="shopCart.jsp">Cart</a></li>
+					<li class="active"><a href="registration.jsp">Registration</a></li>
+					<li><a href="contact">Contact</a></li>
 				</ul>
 				<div id="connect">
 					<a href="http://pinterest.com/" target="_blank" class="pinterest"></a>
